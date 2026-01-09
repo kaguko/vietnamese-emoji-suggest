@@ -6,13 +6,18 @@ Run with: streamlit run app/streamlit_app.py
 
 import streamlit as st
 import sys
+import numpy as np
 from pathlib import Path
+from datetime import datetime
+import time
 
 # Add parent directory to path for imports
 sys.path.insert(0, str(Path(__file__).parent.parent))
 
 from src.models import EnsembleEmojiModel, KeywordBaseline
 from src.preprocessing import preprocess_text, extract_emojis
+from src.personalization import get_personalizer
+from src.monitoring import get_monitor
 
 # ============================================================================
 # PAGE CONFIG
@@ -151,6 +156,92 @@ with st.sidebar:
     """)
 
 # ============================================================================
+# EMOTION WHEEL VISUALIZATION
+# ============================================================================
+
+def plot_emotion_wheel(emotion_scores: dict = None, detected_emotion: str = None):
+    """
+    Create Plutchik's emotion wheel visualization.
+    
+    Args:
+        emotion_scores: Dict of emotion -> score (0-1)
+        detected_emotion: Primary detected emotion
+    """
+    import plotly.graph_objects as go
+    
+    # Plutchik's 8 basic emotions in order
+    emotions = ['joy', 'trust', 'fear', 'surprise', 
+                'sadness', 'disgust', 'anger', 'anticipation']
+    
+    emotion_colors = {
+        'joy': '#FFD700',         # Yellow
+        'trust': '#90EE90',       # Light green
+        'fear': '#32CD32',        # Green
+        'surprise': '#00CED1',    # Cyan
+        'sadness': '#4169E1',     # Blue
+        'disgust': '#9370DB',     # Purple
+        'anger': '#FF4500',       # Red
+        'anticipation': '#FFA500' # Orange
+    }
+    
+    # Default scores if not provided
+    if emotion_scores is None:
+        emotion_scores = {e: 0.1 for e in emotions}
+        if detected_emotion and detected_emotion in emotions:
+            emotion_scores[detected_emotion] = 0.8
+    
+    # Create radar chart
+    values = [emotion_scores.get(e, 0.1) for e in emotions]
+    values.append(values[0])  # Close the polygon
+    
+    theta = emotions + [emotions[0]]
+    colors = [emotion_colors.get(e, '#808080') for e in emotions]
+    
+    fig = go.Figure()
+    
+    fig.add_trace(go.Scatterpolar(
+        r=values,
+        theta=theta,
+        fill='toself',
+        fillcolor='rgba(102, 126, 234, 0.3)',
+        line=dict(color='rgb(102, 126, 234)', width=2),
+        name='Emotion Intensity'
+    ))
+    
+    fig.update_layout(
+        polar=dict(
+            radialaxis=dict(
+                visible=True,
+                range=[0, 1],
+                tickvals=[0.25, 0.5, 0.75, 1.0]
+            ),
+            angularaxis=dict(
+                tickfont=dict(size=12)
+            )
+        ),
+        showlegend=False,
+        margin=dict(l=60, r=60, t=40, b=40),
+        height=300
+    )
+    
+    return fig
+
+
+# ============================================================================
+# SESSION STATE INITIALIZATION
+# ============================================================================
+
+if 'user_id' not in st.session_state:
+    # Simple user ID for demo (in production, use proper auth)
+    st.session_state['user_id'] = f"user_{datetime.now().strftime('%Y%m%d%H%M%S')}"
+
+if 'emotion_history' not in st.session_state:
+    st.session_state['emotion_history'] = []
+
+if 'prediction_count' not in st.session_state:
+    st.session_state['prediction_count'] = 0
+
+# ============================================================================
 # MAIN CONTENT
 # ============================================================================
 
@@ -200,13 +291,51 @@ with col2:
     st.markdown("### 💡 Suggestions")
     
     if user_text and user_text.strip():
+        # Start timer for latency tracking
+        start_time = time.time()
+        
         # Get predictions
         try:
             if use_full_model:
                 result = model.suggest_with_details(user_text, method=method)
                 suggestions = result['final_suggestions']
+                detected_emotion = result.get('detected_emotion', 'neutral')
+                confidence = result.get('confidence', 0.7)
             else:
                 suggestions = model.suggest(user_text, method=method)
+                detected_emotion = 'neutral'
+                confidence = 0.6
+            
+            # Apply personalization
+            personalizer = get_personalizer()
+            user_id = st.session_state['user_id']
+            suggestions = personalizer.rank_emojis(
+                user_id=user_id,
+                emotion=detected_emotion,
+                base_emojis=suggestions,
+                personalization_weight=0.3
+            )
+            
+            # Calculate latency
+            latency_ms = (time.time() - start_time) * 1000
+            
+            # Log prediction
+            monitor = get_monitor()
+            monitor.log_prediction(
+                input_text=user_text,
+                predicted_emotion=detected_emotion,
+                predicted_intensity=0.7,
+                suggested_emojis=suggestions[:5],
+                confidence=confidence,
+                latency_ms=latency_ms
+            )
+            
+            # Update session state
+            st.session_state['prediction_count'] += 1
+            st.session_state['emotion_history'].append({
+                'emotion': detected_emotion,
+                'timestamp': datetime.now().isoformat()
+            })
             
             # Display emoji buttons
             emoji_cols = st.columns(3)
@@ -217,14 +346,29 @@ with col2:
                         emoji,
                         key=f"emoji_{i}",
                         use_container_width=True,
-                        help=f"Click to copy: {emoji}"
+                        help=f"Click to select: {emoji}"
                     ):
+                        # Record selection
+                        personalizer.record_selection(
+                            user_id=user_id,
+                            emoji=emoji,
+                            emotion=detected_emotion,
+                            was_selected=True
+                        )
                         st.success(f"Selected: {emoji}")
-                        # Copy to clipboard simulation
                         st.code(emoji, language=None)
             
-            # Show confidence (if available)
+            # Show confidence and method
             st.markdown("---")
+            
+            # Confidence bar
+            st.markdown(f"**Confidence:** {confidence:.0%}")
+            st.progress(confidence)
+            
+            # Latency indicator
+            latency_color = "🟢" if latency_ms < 300 else "🟡" if latency_ms < 500 else "🔴"
+            st.markdown(f"**Latency:** {latency_color} {latency_ms:.0f}ms")
+            
             st.markdown(f"**Method:** {method}")
             
         except Exception as e:
@@ -242,7 +386,7 @@ if show_explanation and user_text and user_text.strip():
     st.markdown("---")
     st.markdown("### 🔍 Analysis")
     
-    analysis_cols = st.columns(3)
+    analysis_cols = st.columns([1, 1, 1])
     
     with analysis_cols[0]:
         st.markdown("#### 🔤 Keyword Matches")
@@ -269,6 +413,11 @@ if show_explanation and user_text and user_text.strip():
             }
             emoji = emotion_emojis.get(emotion, '🤔')
             st.markdown(f"**{emoji} {emotion.capitalize()}**")
+            
+            # Show intensity
+            intensity = result.get('intensity', 0.5)
+            st.markdown(f"Intensity: {intensity:.0%}")
+            st.progress(intensity)
         else:
             st.markdown("*Enable full model for emotion detection*")
     
@@ -282,6 +431,16 @@ if show_explanation and user_text and user_text.strip():
             st.markdown("- Keyword: Active ✅")
             st.markdown("- Sentiment: Disabled")
             st.markdown("- Semantic: Disabled")
+    
+    # Emotion Wheel Visualization
+    if use_full_model:
+        st.markdown("#### 🎡 Emotion Wheel")
+        try:
+            detected = result.get('detected_emotion', 'neutral') if 'result' in dir() else 'neutral'
+            fig = plot_emotion_wheel(detected_emotion=detected)
+            st.plotly_chart(fig, use_container_width=True)
+        except ImportError:
+            st.info("Install plotly for emotion wheel visualization: `pip install plotly`")
 
 # Preprocessing visualization
 if show_preprocessing and user_text and user_text.strip():
@@ -311,7 +470,7 @@ if show_preprocessing and user_text and user_text.strip():
 st.markdown("---")
 st.markdown("### 📊 System Statistics")
 
-stat_cols = st.columns(4)
+stat_cols = st.columns(5)
 
 with stat_cols[0]:
     st.metric(
@@ -324,9 +483,9 @@ with stat_cols[0]:
 with stat_cols[1]:
     st.metric(
         label="Dataset Size",
-        value="100+",
-        delta="samples",
-        help="Number of training samples"
+        value="450+",
+        delta="150 manual + 300 augmented",
+        help="Training samples (manual + augmented)"
     )
 
 with stat_cols[2]:
@@ -341,9 +500,47 @@ with stat_cols[3]:
     st.metric(
         label="Emotions",
         value="8",
-        delta="categories",
-        help="Based on Plutchik's wheel"
+        delta="Plutchik's wheel",
+        help="Based on Plutchik's emotion wheel"
     )
+
+with stat_cols[4]:
+    st.metric(
+        label="Your Predictions",
+        value=str(st.session_state['prediction_count']),
+        delta="this session",
+        help="Number of predictions in this session"
+    )
+
+# ============================================================================
+# PERSONALIZATION STATS
+# ============================================================================
+
+with st.expander("👤 Your Personalization Stats"):
+    try:
+        personalizer = get_personalizer()
+        user_stats = personalizer.get_user_stats(st.session_state['user_id'])
+        
+        pers_cols = st.columns(4)
+        with pers_cols[0]:
+            st.metric("Total Interactions", user_stats['total_interactions'])
+        with pers_cols[1]:
+            st.metric("Active Days", user_stats['active_days'])
+        with pers_cols[2]:
+            st.metric("Emotions Used", len(user_stats['emotions_used']))
+        with pers_cols[3]:
+            if user_stats['favorite_emojis']:
+                st.markdown(f"**Favorites:** {' '.join(user_stats['favorite_emojis'][:5])}")
+            else:
+                st.markdown("*No favorites yet*")
+        
+        # Option to reset personalization
+        if st.button("🔄 Reset My Preferences", type="secondary"):
+            personalizer.reset_user(st.session_state['user_id'])
+            st.success("Preferences reset!")
+            st.rerun()
+    except Exception as e:
+        st.info("Personalization stats will appear after a few interactions.")
 
 # ============================================================================
 # BATCH PROCESSING (OPTIONAL)
@@ -383,14 +580,29 @@ with st.expander("📝 Feedback"):
     
     with feedback_cols[0]:
         if st.button("👍 Yes, great!", use_container_width=True):
-            st.success("Thank you for your feedback!")
+            try:
+                monitor = get_monitor()
+                monitor.record_feedback(datetime.now().isoformat(), "positive")
+            except:
+                pass
+            st.success("Thank you for your positive feedback!")
     
     with feedback_cols[1]:
         if st.button("🤔 Could be better", use_container_width=True):
+            try:
+                monitor = get_monitor()
+                monitor.record_feedback(datetime.now().isoformat(), "neutral")
+            except:
+                pass
             st.info("Thanks! We're working on improvements.")
     
     with feedback_cols[2]:
         if st.button("👎 Not helpful", use_container_width=True):
+            try:
+                monitor = get_monitor()
+                monitor.record_feedback(datetime.now().isoformat(), "negative")
+            except:
+                pass
             st.warning("Sorry to hear that. Please report specific issues.")
     
     feedback_text = st.text_input("Additional comments (optional):")

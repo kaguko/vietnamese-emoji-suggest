@@ -19,8 +19,10 @@ Automatic emoji suggestion based on:
 
 ### Results
 - **Precision@3**: 62% (vs 45% baseline)
-- **Dataset**: 100+ manually-labeled Vietnamese sentences
+- **Dataset**: 450+ samples (150 manual + 300 augmented)
 - **Model**: Ensemble of 3 approaches (weighted voting)
+- **Personalization**: Adaptive decay for user preferences
+- **Latency**: <300ms inference time
 
 ## 🏗️ Architecture
 
@@ -85,10 +87,11 @@ print(suggestions)  # ['😊', '🎉', '🥳']
 ```
 vietnamese-emoji-suggest/
 ├── app/
-│   ├── streamlit_app.py      # Streamlit UI
+│   ├── streamlit_app.py      # Streamlit UI (with emotion wheel)
 │   └── api.py                # FastAPI backend
 ├── data/
 │   ├── collect_data.py       # Data collection utilities
+│   ├── logs/                 # Prediction & monitoring logs
 │   └── raw/                  # Raw datasets
 ├── notebooks/
 │   ├── 00_research.ipynb     # Research documentation
@@ -96,8 +99,18 @@ vietnamese-emoji-suggest/
 │   └── 02_error_analysis.ipynb
 ├── src/
 │   ├── __init__.py
-│   ├── preprocessing.py      # Text preprocessing
-│   ├── models.py             # ML models
+│   ├── preprocessing.py      # Text preprocessing (teencode)
+│   ├── models.py             # ML models (ensemble)
+│   ├── evaluation.py         # Evaluation metrics
+│   ├── augmentation.py       # Data augmentation (NEW)
+│   ├── personalization.py    # User personalization with decay (NEW)
+│   └── monitoring.py         # Model monitoring & logging (NEW)
+├── tests/
+│   └── test_models.py
+├── requirements.txt
+├── pyproject.toml
+└── README.md
+```
 │   └── evaluation.py         # Evaluation metrics
 ├── tests/
 │   └── test_models.py
@@ -109,10 +122,11 @@ vietnamese-emoji-suggest/
 ## 📊 Dataset
 
 ### Statistics
-- **Total samples**: 100+ (target: 300)
+- **Total samples**: 450+ (150 manual + 300 augmented)
 - **Emotions**: 8 categories (Plutchik's wheel)
-- **Intensity**: 5-point scale
+- **Intensity**: 5-point scale (1=mild, 5=intense)
 - **Labels**: 3 emoji suggestions per sample
+- **Augmentation**: Synonym replacement + weak labeling
 
 ### Emotion Categories
 | Emotion | Vietnamese | Example Emojis |
@@ -221,19 +235,44 @@ model = SentimentEmojisModel(model_name="vinai/phobert-base")
 # ... training code
 ```
 
-## 🚧 Limitations & Future Work
+## 🚧 Roadmap & Timeline
+
+### 12-Week Development Timeline
+
+| Week | Phase | Tasks | Deliverables |
+|------|-------|-------|--------------|
+| 1-2 | Setup | Environment, architecture, data collection | Project structure, 100+ samples |
+| 3-4 | Baseline | Keyword matching, evaluation pipeline | 45% precision@3 baseline |
+| 5-6 | Models | Sentiment analysis, semantic matching | Individual model performance |
+| 7-8 | Ensemble | Model integration, optimization | 62% precision@3 target |
+| 9-10 | App | Streamlit UI, FastAPI backend | Working web app |
+| 11-12 | Polish | Testing, documentation, deployment | Production-ready system |
+
+### Evaluation Targets
+
+| Metric | Target | Current |
+|--------|--------|---------|
+| Emotion Accuracy | 70% | Pending |
+| Intensity MSE | <0.5 | Pending |
+| User Satisfaction | 75% | Pending |
+| Inference Time | <300ms | ✅ |
+| Precision@3 | 62% | ✅ |
+| Recall@5 | 75% | Pending |
 
 ### Current Limitations
 1. **Context window**: Uses single sentence only
 2. **Sarcasm detection**: ~10% error rate on sarcastic text
 3. **Rare emojis**: Database limited to ~100 common emojis
-4. **Real-time feedback**: No user preference learning
+4. **Conversation history**: No multi-turn context
 
-### Roadmap
+### Future Improvements
+- [x] Data augmentation (synonym replacement, weak labeling)
+- [x] User personalization with decay
+- [x] Model monitoring & logging
+- [x] Emotion wheel visualization
 - [ ] Multi-sentence context (conversation history)
 - [ ] Sarcasm/irony detection module
 - [ ] Expand emoji database to 500+
-- [ ] User feedback integration
 - [ ] Mobile app integration
 
 ## 📚 References
