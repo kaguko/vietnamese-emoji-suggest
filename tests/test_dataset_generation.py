@@ -39,7 +39,12 @@ class TestDatasetGeneration:
         # Check all emotions are represented
         emotions = set(s['primary_emotion'] for s in samples)
         all_emotions = set(EMOTION_LABELS.values())
-        assert emotions == all_emotions, f"Missing emotions: {all_emotions - emotions}"
+        missing = all_emotions - emotions
+        extra = emotions - all_emotions
+        assert emotions == all_emotions, (
+            f"Emotion mismatch - Missing: {missing}, Extra: {extra}, "
+            f"Expected: {sorted(all_emotions)}, Got: {sorted(emotions)}"
+        )
     
     def test_dataset_validation(self):
         """Test dataset validation."""

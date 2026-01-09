@@ -249,6 +249,11 @@ def weak_label_text(text: str) -> Tuple[Optional[str], int, float]:
     return best_emotion, best_intensity, best_confidence
 
 
+# Augmentation constants
+MAX_SYNONYM_REPLACEMENTS = 2
+AUGMENTATION_FALLBACK_THRESHOLD_DIVISOR = 2
+
+
 def augment_dataset(
     samples: List[Dict],
     augmentation_factor: int = 2,
@@ -288,8 +293,8 @@ def augment_dataset(
                 aug_sample['source'] = 'augmented'
                 augmented.append(aug_sample)
             # Even if synonym fails, try with more replacements
-            elif i < augmentation_factor // 2:
-                aug_text = synonym_replacement(text, n_replacements=2)
+            elif i < augmentation_factor // AUGMENTATION_FALLBACK_THRESHOLD_DIVISOR:
+                aug_text = synonym_replacement(text, n_replacements=MAX_SYNONYM_REPLACEMENTS)
                 if aug_text != text:
                     aug_sample = sample.copy()
                     aug_sample['text'] = aug_text

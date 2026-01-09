@@ -9,11 +9,12 @@ This script:
 4. Prints statistics
 
 Usage:
-    python scripts/generate_dataset.py
+    python scripts/generate_dataset.py [--augmentation-factor N]
 """
 
 import sys
 import os
+import argparse
 from pathlib import Path
 
 # Add parent directory to path
@@ -29,6 +30,10 @@ from data.collect_data import (
 from src.augmentation import augment_dataset
 from src.models import EMOTION_EMOJI_MAP
 
+
+# Configuration constants
+DEFAULT_AUGMENTATION_FACTOR = 10
+TARGET_AUGMENTED_SAMPLES = 450
 
 def print_stats(samples, title="Dataset Statistics"):
     """Print statistics for a dataset."""
@@ -73,9 +78,28 @@ def validate_and_report(samples, dataset_name="Dataset"):
 
 def main():
     """Main function to generate datasets."""
+    # Parse command-line arguments
+    parser = argparse.ArgumentParser(description='Generate Vietnamese emoji suggestion datasets')
+    parser.add_argument(
+        '--augmentation-factor',
+        type=int,
+        default=DEFAULT_AUGMENTATION_FACTOR,
+        help=f'Augmentation factor (default: {DEFAULT_AUGMENTATION_FACTOR})'
+    )
+    parser.add_argument(
+        '--target-samples',
+        type=int,
+        default=TARGET_AUGMENTED_SAMPLES,
+        help=f'Target number of augmented samples (default: {TARGET_AUGMENTED_SAMPLES})'
+    )
+    args = parser.parse_args()
+    
     print("="*60)
     print("VIETNAMESE EMOJI SUGGESTION - DATASET GENERATION")
     print("="*60)
+    print(f"Configuration:")
+    print(f"  Augmentation factor: {args.augmentation_factor}")
+    print(f"  Target augmented samples: {args.target_samples}")
     
     # Step 1: Create initial dataset
     print("\n[1/5] Creating initial manually-curated dataset...")
@@ -113,16 +137,12 @@ def main():
     
     # Step 3: Augment dataset
     print("\n[3/5] Augmenting dataset...")
-    # We need to generate enough augmented samples to reach 450+ total
-    # Initial: ~107 samples
-    # We need to reach 450+, so we need ~343+ more samples
-    # Let's use a very high augmentation factor to ensure we reach the goal
-    augmented_samples = augment_dataset(initial_samples, augmentation_factor=10)
+    augmented_samples = augment_dataset(initial_samples, augmentation_factor=args.augmentation_factor)
     
     # Add weak-labeled samples to reach target
     print(f"  Augmented samples so far: {len(augmented_samples)}")
-    if len(augmented_samples) < 450:
-        print(f"  Adding weak-labeled samples to reach 450...")
+    if len(augmented_samples) < args.target_samples:
+        print(f"  Adding weak-labeled samples to reach {args.target_samples}...")
         from src.augmentation import generate_weak_labeled_samples, SAMPLE_UNLABELED_TEXTS
         weak_samples = generate_weak_labeled_samples(SAMPLE_UNLABELED_TEXTS, EMOTION_EMOJI_MAP)
         augmented_samples.extend(weak_samples)
@@ -175,7 +195,7 @@ def main():
     # Check success criteria
     success_criteria = [
         (len(initial_samples) >= 100, f"Initial dataset has {len(initial_samples)} samples (>= 100)"),
-        (len(augmented_samples) >= 450, f"Augmented dataset has {len(augmented_samples)} samples (>= 450)"),
+        (len(augmented_samples) >= args.target_samples, f"Augmented dataset has {len(augmented_samples)} samples (>= {args.target_samples})"),
         (len(missing_emotions) == 0, "All 8 emotions represented in initial"),
         (len(missing_emotions_aug) == 0, "All 8 emotions represented in augmented"),
         (os.path.exists(initial_csv_path), f"Initial CSV exists at {initial_csv_path}"),
