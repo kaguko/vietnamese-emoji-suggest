@@ -168,6 +168,43 @@ def create_initial_dataset() -> List[Dict]:
         DataSample("Còn 3 ngày nữa!", "anticipation", 4, "⏳", "🤞", "😊"),
         DataSample("Cuối tuần rồi!", "anticipation", 4, "🎉", "🥳", "✨"),
         DataSample("Sắp nghỉ hè!", "anticipation", 5, "🏖️", "☀️", "🎉"),
+        
+        # Additional samples to reach 100+
+        # More JOY
+        DataSample("Được khuyến mãi!", "joy", 4, "😊", "🎉", "💰"),
+        DataSample("Ngon tuyệt!", "joy", 4, "😋", "👍", "✨"),
+        DataSample("Thích quá đi!", "joy", 5, "😍", "🤩", "❤️"),
+        
+        # More SADNESS  
+        DataSample("Buồn ngủ quá", "sadness", 3, "😴", "😪", "💤"),
+        DataSample("Tâm trạng không tốt", "sadness", 3, "😔", "😕", "💭"),
+        DataSample("Xa gia đình quá", "sadness", 4, "🥺", "😢", "🏠"),
+        
+        # More ANGER
+        DataSample("Chậm quá!", "anger", 3, "😤", "⏰", "💢"),
+        DataSample("Không công bằng!", "anger", 4, "😠", "⚖️", "💢"),
+        
+        # More FEAR
+        DataSample("Sắp hết deadline!", "fear", 4, "😰", "⏰", "📅"),
+        DataSample("Chưa học gì cả!", "fear", 4, "😱", "📚", "😰"),
+        
+        # More SURPRISE
+        DataSample("Sao vậy!", "surprise", 3, "😮", "❓", "🤔"),
+        DataSample("Nhanh vậy!", "surprise", 4, "😲", "⚡", "🏃"),
+        
+        # More DISGUST
+        DataSample("Hết sạch rồi!", "disgust", 3, "😕", "🙁", "❌"),
+        DataSample("Không ổn chút nào!", "disgust", 4, "👎", "😤", "❌"),
+        
+        # More TRUST
+        DataSample("Cố lên!", "trust", 4, "💪", "🔥", "👊"),
+        DataSample("Ủng hộ bạn!", "trust", 4, "👍", "🤝", "💪"),
+        DataSample("Làm tốt lắm!", "trust", 4, "👏", "🌟", "✨"),
+        
+        # More ANTICIPATION
+        DataSample("Sắp về quê!", "anticipation", 4, "🏠", "🎊", "😊"),
+        DataSample("Chờ quà nè!", "anticipation", 4, "🎁", "🤞", "😄"),
+        DataSample("Sắp được gặp!", "anticipation", 5, "🤩", "❤️", "🎉"),
     ]
     
     return [asdict(s) for s in samples]
