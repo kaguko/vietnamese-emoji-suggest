@@ -22,26 +22,49 @@ VIETNAMESE_SYNONYMS = {
     "tuyệt vời": ["tuyệt", "hay", "xuất sắc", "tốt lắm"],
     "hay": ["tốt", "tuyệt", "giỏi", "đỉnh"],
     "thích": ["yêu thích", "ưa", "mê"],
+    "mừng": ["vui mừng", "hân hoan", "phấn khởi"],
     
     # Sadness synonyms
     "buồn": ["đau buồn", "u sầu", "chán nản", "thất vọng"],
     "đau": ["đau đớn", "khổ sở", "xót xa"],
     "nhớ": ["thương nhớ", "nhung nhớ", "da diết"],
     "chán": ["buồn chán", "tẻ nhạt", "nhàm"],
+    "thất vọng": ["nản lòng", "chán nản", "thất ý"],
+    "cô đơn": ["đơn độc", "lẻ loi", "trống vắng"],
     
     # Anger synonyms
     "giận": ["tức giận", "nổi giận", "bực tức"],
     "tức": ["bực mình", "khó chịu", "giận dữ"],
     "ghét": ["căm ghét", "ghê tởm", "chán ghét"],
+    "bực": ["tức bực", "khó chịu", "bực mình"],
     
     # Fear synonyms
     "sợ": ["lo sợ", "kinh sợ", "hoảng sợ"],
     "lo": ["lo lắng", "lo âu", "bồn chồn"],
     "căng thẳng": ["áp lực", "stress", "hồi hộp"],
+    "hồi hộp": ["căng thẳng", "lo âu", "bồn chồn"],
+    
+    # Surprise synonyms
+    "ngạc nhiên": ["bất ngờ", "kinh ngạc", "sửng sốt"],
+    "bất ngờ": ["ngạc nhiên", "bất thần", "đột ngột"],
+    
+    # Disgust synonyms  
+    "ghê": ["kinh", "dễ sợ", "ghê tởm"],
+    "kinh": ["ghê", "dễ sợ", "khủng khiếp"],
+    
+    # Trust synonyms
+    "tin": ["tin tưởng", "tin cậy", "tưởng"],
+    "chắc": ["chắc chắn", "nhất định", "chắc ăn"],
+    
+    # Anticipation synonyms
+    "mong": ["mong đợi", "chờ đợi", "hy vọng"],
+    "chờ": ["chờ đợi", "đợi chờ", "trông đợi"],
+    "háo hức": ["phấn khích", "hào hứng", "phấn khởi"],
     
     # General
     "rất": ["cực kỳ", "vô cùng", "quá", "siêu"],
     "quá": ["lắm", "ghê", "cực", "thật"],
+    "lắm": ["quá", "nhiều", "ghê"],
 }
 
 # Emotion keywords for weak labeling
@@ -226,6 +249,11 @@ def weak_label_text(text: str) -> Tuple[Optional[str], int, float]:
     return best_emotion, best_intensity, best_confidence
 
 
+# Augmentation constants
+MAX_SYNONYM_REPLACEMENTS = 2
+AUGMENTATION_FALLBACK_THRESHOLD_DIVISOR = 2
+
+
 def augment_dataset(
     samples: List[Dict],
     augmentation_factor: int = 2,
@@ -254,7 +282,7 @@ def augment_dataset(
         emotion = sample['primary_emotion']
         intensity = sample['intensity']
         
-        # Synonym replacement
+        # Synonym replacement - try multiple times for better coverage
         for i in range(augmentation_factor):
             aug_text = synonym_replacement(text, n_replacements=1)
             if aug_text != text:
@@ -262,7 +290,18 @@ def augment_dataset(
                 aug_sample['text'] = aug_text
                 aug_sample['confidence'] = 0.95
                 aug_sample['augmentation_type'] = 'synonym'
+                aug_sample['source'] = 'augmented'
                 augmented.append(aug_sample)
+            # Even if synonym fails, try with more replacements
+            elif i < augmentation_factor // AUGMENTATION_FALLBACK_THRESHOLD_DIVISOR:
+                aug_text = synonym_replacement(text, n_replacements=MAX_SYNONYM_REPLACEMENTS)
+                if aug_text != text:
+                    aug_sample = sample.copy()
+                    aug_sample['text'] = aug_text
+                    aug_sample['confidence'] = 0.9
+                    aug_sample['augmentation_type'] = 'synonym'
+                    aug_sample['source'] = 'augmented'
+                    augmented.append(aug_sample)
         
         # Intensity variation (only if intensity can change)
         if 2 <= intensity <= 4:
@@ -273,6 +312,7 @@ def augment_dataset(
                 var_sample['intensity'] = var_intensity
                 var_sample['confidence'] = 0.9
                 var_sample['augmentation_type'] = 'intensity'
+                var_sample['source'] = 'augmented'
                 augmented.append(var_sample)
     
     return augmented
@@ -377,6 +417,55 @@ SAMPLE_UNLABELED_TEXTS = [
     "Bị cancel kế hoạch",
     "Học không hiểu gì",
     "Gặp lại bạn cũ",
+    # Additional samples to expand weak labeling
+    "Hôm nay thật hạnh phúc",
+    "Mình cực kỳ buồn",
+    "Tức mình quá đi",
+    "Sợ chết đi được",
+    "Wow không tin nổi",
+    "Thật ghê tởm",
+    "Tin tưởng bạn hoàn toàn",
+    "Háo hức lắm",
+    "Thật tuyệt vời",
+    "Chán nản quá",
+    "Khó chịu thật",
+    "Kinh hoàng",
+    "Ngạc nhiên thật",
+    "Ớn lạnh",
+    "Yên tâm đi",
+    "Mong mỏi quá",
+    "Vui sướng",
+    "Thất vọng lắm",
+    "Điên lên được",
+    "Lo lắng không ngủ được",
+    "Bất ngờ thật sự",
+    "Kinh tởm",
+    "Chắc chắn rồi",
+    "Không đợi được",
+    "Sung sướng quá",
+    "Đau buồn",
+    "Giận dữ thật sự",
+    "Căng thẳng quá",
+    "Không thể tin được",
+    "Buồn nôn",
+    "Ủng hộ bạn",
+    "Phấn khích lắm",
+    "Vui tươi",
+    "Tủi thân",
+    "Bực tức",
+    "Hoảng loạn",
+    "Sốc nặng",
+    "Dơ bẩn quá",
+    "Tin được mà",
+    "Chờ mãi",
+    "Hạnh phúc dâng trào",
+    "Tuyệt vọng",
+    "Phát điên lên",
+    "Run rẩy",
+    "Trời ơi đất hỡi",
+    "Kinh dị",
+    "Đáng tin cậy",
+    "Nóng lòng quá",
 ]
 
 

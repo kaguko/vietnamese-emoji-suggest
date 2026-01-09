@@ -168,6 +168,46 @@ def create_initial_dataset() -> List[Dict]:
         DataSample("Còn 3 ngày nữa!", "anticipation", 4, "⏳", "🤞", "😊"),
         DataSample("Cuối tuần rồi!", "anticipation", 4, "🎉", "🥳", "✨"),
         DataSample("Sắp nghỉ hè!", "anticipation", 5, "🏖️", "☀️", "🎉"),
+        
+        # Additional samples to reach 100+
+        # More JOY
+        DataSample("Tuyệt quá!", "joy", 5, "🤩", "🎉", "✨"),
+        DataSample("Được thưởng rồi!", "joy", 5, "🤑", "💰", "🎊"),
+        DataSample("Mừng quá!", "joy", 4, "😊", "🎉", "💕"),
+        DataSample("Hạnh phúc lắm!", "joy", 5, "🥰", "😊", "💕"),
+        
+        # More SADNESS
+        DataSample("Thất bại rồi", "sadness", 4, "😞", "💔", "😢"),
+        DataSample("Không như mong đợi", "sadness", 3, "😔", "😕", "😞"),
+        DataSample("Tan vỡ rồi", "sadness", 5, "💔", "😭", "😢"),
+        
+        # More ANGER
+        DataSample("Phát điên!", "anger", 5, "🤬", "😡", "💢"),
+        DataSample("Không thể chấp nhận!", "anger", 5, "😤", "💢", "😡"),
+        DataSample("Quá bực!", "anger", 4, "😠", "💢", "😤"),
+        
+        # More FEAR
+        DataSample("Sợ chết đi được!", "fear", 5, "😱", "😨", "💀"),
+        DataSample("Lo lắm!", "fear", 4, "😰", "😟", "💦"),
+        DataSample("Nghĩ đến là sợ!", "fear", 4, "😨", "😰", "😱"),
+        
+        # More SURPRISE
+        DataSample("Không thể nào!", "surprise", 5, "😱", "🤯", "😮"),
+        DataSample("Thật á!", "surprise", 4, "😲", "😮", "🤯"),
+        DataSample("Nghiêm túc không?", "surprise", 3, "😮", "🤔", "❓"),
+        
+        # More DISGUST
+        DataSample("Ớn quá!", "disgust", 4, "🤢", "😖", "😱"),
+        DataSample("Không ưa!", "disgust", 3, "😒", "👎", "😕"),
+        DataSample("Kinh khủng!", "disgust", 5, "😱", "🤢", "😖"),
+        
+        # More TRUST
+        DataSample("Cậu làm tốt lắm!", "trust", 4, "👏", "💪", "👍"),
+        DataSample("Tuyệt vời lắm!", "trust", 5, "💯", "✨", "👍"),
+        
+        # More ANTICIPATION
+        DataSample("Phấn khởi quá!", "anticipation", 5, "🤩", "😆", "🎉"),
+        DataSample("Sắp tới rồi!", "anticipation", 4, "⏰", "🤞", "✨"),
     ]
     
     return [asdict(s) for s in samples]
