@@ -15,6 +15,7 @@ Usage:
 import os
 import sys
 from pathlib import Path
+from typing import List, Dict
 
 # Add project root to path
 project_root = Path(__file__).parent.parent
@@ -30,6 +31,29 @@ from data.collect_data import (
 )
 from src.augmentation import augment_dataset, validate_dataset as validate_augmented
 from src.models import EMOTION_EMOJI_MAP
+
+
+# Configuration
+DEFAULT_AUGMENTATION_FACTOR = 4
+TARGET_SAMPLES = 450
+
+
+def update_sample_source(samples: List[Dict]) -> List[Dict]:
+    """
+    Update source field for augmented samples.
+    
+    Args:
+        samples: List of sample dictionaries
+        
+    Returns:
+        Updated samples with correct source field
+    """
+    for sample in samples:
+        aug_type = sample.get('augmentation_type', 'original')
+        if aug_type != 'original':
+            sample['source'] = 'augmented'
+        sample['created_at'] = sample.get('created_at', '')
+    return samples
 
 
 def generate_initial_dataset():
@@ -66,34 +90,23 @@ def generate_initial_dataset():
     return samples
 
 
-def generate_augmented_dataset(initial_samples, target_samples=450):
+def generate_augmented_dataset(initial_samples, target_samples=TARGET_SAMPLES):
     """Generate augmented dataset with target number of samples."""
     print("\n" + "=" * 70)
     print("STEP 2: Generating Augmented Dataset")
     print("=" * 70)
     
-    # Calculate needed augmentation factor to reach target
-    # We need to account for the fact that not all augmentations produce new samples
-    initial_count = len(initial_samples)
-    
-    # Start with a high augmentation factor
-    augmentation_factor = 4
-    
-    print(f"\nApplying augmentation with factor {augmentation_factor}...")
+    print(f"\nApplying augmentation with factor {DEFAULT_AUGMENTATION_FACTOR}...")
     augmented = augment_dataset(
         initial_samples,
-        augmentation_factor=augmentation_factor,
+        augmentation_factor=DEFAULT_AUGMENTATION_FACTOR,
         include_weak_labeled=False
     )
     
     print(f"Generated {len(augmented)} augmented samples")
     
     # Update source field for augmented samples
-    for sample in augmented:
-        aug_type = sample.get('augmentation_type', 'original')
-        if aug_type != 'original':
-            sample['source'] = 'augmented'
-        sample['created_at'] = sample.get('created_at', '')
+    augmented = update_sample_source(augmented)
     
     # Save augmented dataset
     save_dataset_csv(augmented, "data/raw/augmented_data.csv")

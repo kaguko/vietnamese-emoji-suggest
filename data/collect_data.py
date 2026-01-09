@@ -66,7 +66,7 @@ class DataSample:
 def create_initial_dataset() -> List[Dict]:
     """
     Create initial manually-curated dataset.
-    This provides 100+ samples covering all 8 emotions.
+    This provides 194 samples covering all 8 emotions.
     """
     samples = [
         # JOY (vui)
