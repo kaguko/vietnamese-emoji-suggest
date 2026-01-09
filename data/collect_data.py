@@ -66,7 +66,7 @@ class DataSample:
 def create_initial_dataset() -> List[Dict]:
     """
     Create initial manually-curated dataset.
-    This provides 100+ samples covering all 8 emotions.
+    This provides 194 samples covering all 8 emotions.
     """
     samples = [
         # JOY (vui)
@@ -168,6 +168,150 @@ def create_initial_dataset() -> List[Dict]:
         DataSample("Còn 3 ngày nữa!", "anticipation", 4, "⏳", "🤞", "😊"),
         DataSample("Cuối tuần rồi!", "anticipation", 4, "🎉", "🥳", "✨"),
         DataSample("Sắp nghỉ hè!", "anticipation", 5, "🏖️", "☀️", "🎉"),
+        
+        # Additional JOY samples
+        DataSample("Được thưởng rồi!", "joy", 5, "🤑", "🎉", "💰"),
+        DataSample("Pass rồi!", "joy", 5, "🎉", "😊", "✨"),
+        DataSample("Được tăng ca!", "joy", 3, "😊", "💼", "👍"),
+        DataSample("Trúng số rồi!", "joy", 5, "🤩", "💰", "🎊"),
+        DataSample("Được khen!", "joy", 4, "😊", "🌟", "👏"),
+        
+        # Additional SADNESS samples
+        DataSample("Ế quá!", "sadness", 4, "😔", "💔", "😢"),
+        DataSample("Không ai hiểu", "sadness", 4, "😢", "💔", "😞"),
+        DataSample("Hụt hẫng", "sadness", 3, "😔", "💔", "😕"),
+        DataSample("Trượt visa rồi", "sadness", 5, "😭", "😞", "💔"),
+        DataSample("Bị từ chối", "sadness", 4, "😢", "💔", "😔"),
+        
+        # Additional ANGER samples
+        DataSample("Phí thời gian!", "anger", 4, "😤", "💢", "⏰"),
+        DataSample("Vô trách nhiệm!", "anger", 5, "😡", "💢", "👊"),
+        DataSample("Lừa dối!", "anger", 5, "😠", "💢", "😤"),
+        DataSample("Bất công!", "anger", 4, "😡", "💢", "😤"),
+        DataSample("Thái độ tệ!", "anger", 4, "😠", "💢", "👎"),
+        
+        # Additional FEAR samples
+        DataSample("Nguy hiểm quá!", "fear", 5, "😱", "😨", "⚠️"),
+        DataSample("Không chắc!", "fear", 3, "😰", "🤔", "😟"),
+        DataSample("Lo âu quá!", "fear", 4, "😰", "😟", "💭"),
+        DataSample("Sợ bị phạt!", "fear", 4, "😨", "😰", "⚠️"),
+        DataSample("Cẩn thận!", "fear", 3, "😬", "⚠️", "👀"),
+        
+        # Additional SURPRISE samples
+        DataSample("Không thể tin!", "surprise", 5, "😱", "🤯", "❗"),
+        DataSample("Thật ư!", "surprise", 4, "😮", "😲", "❓"),
+        DataSample("Sao lại vậy!", "surprise", 4, "😮", "😲", "❗"),
+        DataSample("À!", "surprise", 3, "😮", "💡", "🤔"),
+        DataSample("Bất ngờ thật!", "surprise", 4, "😲", "😮", "✨"),
+        
+        # Additional DISGUST samples
+        DataSample("Hôi quá!", "disgust", 4, "🤢", "😷", "👃"),
+        DataSample("Kinh tởm!", "disgust", 5, "🤮", "😖", "🤢"),
+        DataSample("Ghê tởm quá!", "disgust", 5, "🤢", "🤮", "😷"),
+        DataSample("Không ổn!", "disgust", 3, "😕", "👎", "❌"),
+        DataSample("Rất tệ!", "disgust", 4, "👎", "😤", "🚫"),
+        
+        # Additional TRUST samples
+        DataSample("Cố lên!", "trust", 4, "💪", "✨", "👊"),
+        DataSample("Được đó!", "trust", 3, "👍", "😊", "✅"),
+        DataSample("OK nhé!", "trust", 3, "👌", "😊", "✌️"),
+        DataSample("Hoàn hảo!", "trust", 5, "💯", "✨", "🌟"),
+        DataSample("Tốt lắm!", "trust", 4, "👍", "👏", "😊"),
+        
+        # Additional ANTICIPATION samples
+        DataSample("Sắp tết rồi!", "anticipation", 5, "🎉", "🧧", "🎊"),
+        DataSample("Chờ đợi kết quả!", "anticipation", 4, "⏰", "🤞", "📋"),
+        DataSample("Sắp gặp!", "anticipation", 4, "😊", "⏰", "🤗"),
+        DataSample("Mong được đi!", "anticipation", 4, "🤞", "✈️", "😊"),
+        DataSample("Sắp có tin!", "anticipation", 4, "⏰", "🤞", "📱"),
+        
+        # More JOY samples
+        DataSample("Ngon quá!", "joy", 4, "😋", "👍", "✨"),
+        DataSample("Tốt đẹp!", "joy", 4, "😊", "✨", "👌"),
+        DataSample("Được rồi!", "joy", 3, "😊", "👍", "✅"),
+        DataSample("Vui lắm!", "joy", 4, "😄", "😊", "🎉"),
+        DataSample("Xinh quá!", "joy", 4, "😍", "✨", "💕"),
+        DataSample("Đẹp tuyệt!", "joy", 5, "🤩", "✨", "😍"),
+        DataSample("Cảm động quá!", "joy", 5, "😭", "❤️", "🥺"),
+        DataSample("Hài lòng!", "joy", 4, "😊", "👍", "✨"),
+        
+        # More SADNESS samples
+        DataSample("Buồn thiu!", "sadness", 4, "😔", "😢", "💔"),
+        DataSample("Đau lòng!", "sadness", 5, "💔", "😭", "😢"),
+        DataSample("Xót xa!", "sadness", 5, "😢", "💔", "😭"),
+        DataSample("Tiếc nuối!", "sadness", 4, "😔", "😢", "💔"),
+        DataSample("Thương quá!", "sadness", 4, "🥺", "😢", "💔"),
+        DataSample("Mệt nản!", "sadness", 4, "😩", "😔", "😞"),
+        DataSample("Chán nản!", "sadness", 3, "😔", "😕", "😒"),
+        DataSample("Tuyệt vọng!", "sadness", 5, "😭", "😞", "💔"),
+        
+        # More ANGER samples
+        DataSample("Tức lắm!", "anger", 4, "😤", "💢", "😠"),
+        DataSample("Ức chế!", "anger", 4, "😤", "💢", "😡"),
+        DataSample("Chướng tai!", "anger", 3, "😒", "😤", "💢"),
+        DataSample("Không ưa!", "anger", 3, "😒", "👎", "😤"),
+        DataSample("Phẫn nộ!", "anger", 5, "😡", "💢", "🤬"),
+        DataSample("Bực bội!", "anger", 4, "😤", "😠", "💢"),
+        DataSample("Nóng giận!", "anger", 5, "😡", "💢", "🔥"),
+        DataSample("Chán không!", "anger", 3, "😒", "😤", "😕"),
+        
+        # More FEAR samples
+        DataSample("Khủng khiếp!", "fear", 5, "😱", "😨", "😰"),
+        DataSample("Rùng mình!", "fear", 4, "😨", "😰", "🥶"),
+        DataSample("E dè!", "fear", 3, "😰", "😟", "🤔"),
+        DataSample("Bất an!", "fear", 4, "😰", "😟", "💭"),
+        DataSample("Lo lắng!", "fear", 4, "😰", "😟", "😬"),
+        DataSample("Hoảng hốt!", "fear", 5, "😱", "😨", "😰"),
+        DataSample("Run sợ!", "fear", 5, "😱", "😨", "🥶"),
+        DataSample("Ngại ngùng!", "fear", 3, "😰", "😊", "🙈"),
+        
+        # More SURPRISE samples
+        DataSample("Sốc nặng!", "surprise", 5, "😱", "🤯", "😲"),
+        DataSample("Ngỡ ngàng!", "surprise", 4, "😮", "😲", "🤯"),
+        DataSample("Kinh ngạc!", "surprise", 5, "😲", "🤯", "😮"),
+        DataSample("Lạ thật!", "surprise", 3, "😮", "🤔", "😯"),
+        DataSample("Ồ!", "surprise", 3, "😮", "😲", "❗"),
+        DataSample("Hả!", "surprise", 3, "😮", "😯", "❓"),
+        DataSample("Lạ lùng!", "surprise", 4, "😮", "🤔", "😲"),
+        DataSample("Chưa thấy!", "surprise", 4, "😮", "😲", "🤯"),
+        
+        # More DISGUST samples
+        DataSample("Phản cảm!", "disgust", 4, "😖", "😒", "🙄"),
+        DataSample("Thất vọng!", "disgust", 4, "😞", "👎", "😔"),
+        DataSample("Chất lượng kém!", "disgust", 4, "👎", "😤", "😒"),
+        DataSample("Tồi tệ!", "disgust", 5, "😖", "🤮", "👎"),
+        DataSample("Kém cỏi!", "disgust", 4, "😒", "👎", "😤"),
+        DataSample("Nhạt nhẽo!", "disgust", 3, "😒", "😕", "👎"),
+        DataSample("Khó ưa!", "disgust", 4, "😒", "😖", "👎"),
+        DataSample("Chịu không nổi!", "disgust", 5, "🤢", "🤮", "😖"),
+        
+        # More TRUST samples
+        DataSample("Tin được!", "trust", 4, "👍", "✅", "😊"),
+        DataSample("Yên tâm!", "trust", 4, "😌", "👌", "💪"),
+        DataSample("Đồng ý!", "trust", 4, "👍", "✅", "🤝"),
+        DataSample("Hợp lý!", "trust", 3, "👍", "🤔", "✅"),
+        DataSample("Đúng rồi!", "trust", 4, "✅", "👍", "💯"),
+        DataSample("Làm được!", "trust", 4, "💪", "👍", "✨"),
+        DataSample("Chắc ăn!", "trust", 5, "💯", "✅", "👍"),
+        DataSample("Ổn áp!", "trust", 3, "👌", "😊", "👍"),
+        
+        # More ANTICIPATION samples  
+        DataSample("Sắp rồi!", "anticipation", 4, "⏰", "😊", "✨"),
+        DataSample("Đợi mãi!", "anticipation", 4, "⏳", "😊", "🤞"),
+        DataSample("Mong ngóng!", "anticipation", 4, "🤞", "⏰", "😊"),
+        DataSample("Hồi hộp chờ!", "anticipation", 4, "😬", "🤞", "⏰"),
+        DataSample("Sắp được nghỉ!", "anticipation", 5, "🎉", "🏖️", "😊"),
+        DataSample("Gần đến!", "anticipation", 4, "⏰", "✨", "😊"),
+        DataSample("Mong mỏi!", "anticipation", 4, "🤞", "✨", "😊"),
+        DataSample("Háo hức!", "anticipation", 5, "🤩", "🎉", "✨"),
+        
+        # Extra samples to reach target
+        DataSample("Tuyệt vời quá!", "joy", 5, "🤩", "🎉", "✨"),
+        DataSample("Quá vui!", "joy", 5, "😄", "🎉", "😊"),
+        DataSample("Rất buồn!", "sadness", 5, "😭", "😢", "💔"),
+        DataSample("Cực kỳ tức giận!", "anger", 5, "😡", "💢", "🤬"),
+        DataSample("Sợ hãi!", "fear", 5, "😱", "😨", "😰"),
+        DataSample("Thật ngạc nhiên!", "surprise", 5, "😮", "😲", "🤯"),
     ]
     
     return [asdict(s) for s in samples]

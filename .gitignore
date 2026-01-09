@@ -81,8 +81,7 @@ celerybeat-schedule
 Thumbs.db
 
 # Project specific
-data/raw/*.csv
-data/raw/*.json
+# Note: We commit raw training data to the repository
 *.log
 *.pkl
 *.h5

@@ -1,0 +1,452 @@
+text,primary_emotion,intensity,emoji_1,emoji_2,emoji_3,source,created_at,confidence,augmentation_type
+Chúc mừng bạn đậu tuyển dụng!,joy,5,😊,🎉,🥳,manual,2026-01-09T05:32:20.456700,1.0,original
+Hôm nay là ngày tuyệt vời!,joy,4,😄,✨,🌟,manual,2026-01-09T05:32:20.456714,1.0,original
+Hôm rất nay là ngày tuyệt vời!,joy,5,😄,✨,🌟,augmented,2026-01-09T05:32:20.456714,0.9,intensity
+Cảm ơn bạn nhiều lắm!,joy,4,😊,🙏,❤️,manual,2026-01-09T05:32:20.456717,1.0,original
+Cảm rất ơn bạn nhiều lắm!,joy,5,😊,🙏,❤️,augmented,2026-01-09T05:32:20.456717,0.9,intensity
+Mình vui quá!,joy,5,😁,🎊,💫,manual,2026-01-09T05:32:20.456720,1.0,original
+Mình hào hứng quá!,joy,5,😁,🎊,💫,augmented,2026-01-09T05:32:20.456720,0.95,synonym
+Mình hạnh phúc quá!,joy,5,😁,🎊,💫,augmented,2026-01-09T05:32:20.456720,0.95,synonym
+Mình phấn khởi quá!,joy,5,😁,🎊,💫,augmented,2026-01-09T05:32:20.456720,0.95,synonym
+Mình hạnh phúc quá!,joy,5,😁,🎊,💫,augmented,2026-01-09T05:32:20.456720,0.95,synonym
+Thật tuyệt vời!,joy,4,🤩,👏,✨,manual,2026-01-09T05:32:20.456722,1.0,original
+Thật rất tuyệt vời!,joy,5,🤩,👏,✨,augmented,2026-01-09T05:32:20.456722,0.9,intensity
+Cuối cùng cũng xong!,joy,4,😌,🎉,💪,manual,2026-01-09T05:32:20.456724,1.0,original
+Cuối rất cùng cũng xong!,joy,5,😌,🎉,💪,augmented,2026-01-09T05:32:20.456724,0.9,intensity
+Được nghỉ phép rồi!,joy,4,😊,🏖️,🎊,manual,2026-01-09T05:32:20.456726,1.0,original
+Được rất nghỉ phép rồi!,joy,5,😊,🏖️,🎊,augmented,2026-01-09T05:32:20.456726,0.9,intensity
+Lương tháng này tăng!,joy,5,🤑,💰,🎉,manual,2026-01-09T05:32:20.456728,1.0,original
+Con đỗ đại học rồi mẹ ơi!,joy,5,😭,🎓,🎉,manual,2026-01-09T05:32:20.456730,1.0,original
+Ăn mừng thôi!,joy,4,🎉,🍻,🥳,manual,2026-01-09T05:32:20.456731,1.0,original
+Ăn rất mừng thôi!,joy,5,🎉,🍻,🥳,augmented,2026-01-09T05:32:20.456731,0.9,intensity
+Vui ghê!,joy,3,😊,😄,🙂,manual,2026-01-09T05:32:20.456733,1.0,original
+phấn khởi ghê!,joy,3,😊,😄,🙂,augmented,2026-01-09T05:32:20.456733,0.95,synonym
+hạnh phúc ghê!,joy,3,😊,😄,🙂,augmented,2026-01-09T05:32:20.456733,0.95,synonym
+hào hứng ghê!,joy,3,😊,😄,🙂,augmented,2026-01-09T05:32:20.456733,0.95,synonym
+sung sướng ghê!,joy,3,😊,😄,🙂,augmented,2026-01-09T05:32:20.456733,0.95,synonym
+Vui rất ghê!,joy,4,😊,😄,🙂,augmented,2026-01-09T05:32:20.456733,0.9,intensity
+Có tin vui nè!,joy,4,😊,✨,🌈,manual,2026-01-09T05:32:20.456735,1.0,original
+Có tin hạnh phúc nè!,joy,4,😊,✨,🌈,augmented,2026-01-09T05:32:20.456735,0.95,synonym
+Có tin phấn khởi nè!,joy,4,😊,✨,🌈,augmented,2026-01-09T05:32:20.456735,0.95,synonym
+Có tin sung sướng nè!,joy,4,😊,✨,🌈,augmented,2026-01-09T05:32:20.456735,0.95,synonym
+Có tin hào hứng nè!,joy,4,😊,✨,🌈,augmented,2026-01-09T05:32:20.456735,0.95,synonym
+Có rất tin vui nè!,joy,5,😊,✨,🌈,augmented,2026-01-09T05:32:20.456735,0.9,intensity
+Buồn quá,sadness,5,😭,😢,💔,manual,2026-01-09T05:32:20.456736,1.0,original
+chán nản quá,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.456736,0.95,synonym
+Buồn lắm,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.456736,0.95,synonym
+Buồn ghê,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.456736,0.95,synonym
+Buồn thật,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.456736,0.95,synonym
+Mình rất nhớ bạn,sadness,4,😢,💔,🥺,manual,2026-01-09T05:32:20.456738,1.0,original
+Mình rất nhung nhớ bạn,sadness,4,😢,💔,🥺,augmented,2026-01-09T05:32:20.456738,0.95,synonym
+Mình rất da diết bạn,sadness,4,😢,💔,🥺,augmented,2026-01-09T05:32:20.456738,0.95,synonym
+Mình rất nhung nhớ bạn,sadness,4,😢,💔,🥺,augmented,2026-01-09T05:32:20.456738,0.95,synonym
+Mình rất thương nhớ bạn,sadness,4,😢,💔,🥺,augmented,2026-01-09T05:32:20.456738,0.95,synonym
+Mình cực kỳ rất nhớ bạn,sadness,5,😢,💔,🥺,augmented,2026-01-09T05:32:20.456738,0.9,intensity
+Thật đáng tiếc,sadness,3,😔,😞,💔,manual,2026-01-09T05:32:20.456740,1.0,original
+Thật rất đáng tiếc,sadness,4,😔,😞,💔,augmented,2026-01-09T05:32:20.456740,0.9,intensity
+Hôm nay không vui,sadness,3,😔,☹️,😞,manual,2026-01-09T05:32:20.456741,1.0,original
+Hôm nay không hạnh phúc,sadness,3,😔,☹️,😞,augmented,2026-01-09T05:32:20.456741,0.95,synonym
+Hôm nay không phấn khởi,sadness,3,😔,☹️,😞,augmented,2026-01-09T05:32:20.456741,0.95,synonym
+Hôm nay không hào hứng,sadness,3,😔,☹️,😞,augmented,2026-01-09T05:32:20.456741,0.95,synonym
+Hôm nay không hào hứng,sadness,3,😔,☹️,😞,augmented,2026-01-09T05:32:20.456741,0.95,synonym
+Hôm rất nay không vui,sadness,4,😔,☹️,😞,augmented,2026-01-09T05:32:20.456741,0.9,intensity
+Thi trượt rồi,sadness,4,😭,😢,💔,manual,2026-01-09T05:32:20.456743,1.0,original
+Thi rất trượt rồi,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.456743,0.9,intensity
+Chia tay rồi,sadness,5,💔,😢,😭,manual,2026-01-09T05:32:20.456745,1.0,original
+Mất việc rồi,sadness,5,😭,😞,💔,manual,2026-01-09T05:32:20.456747,1.0,original
+Cô đơn quá,sadness,4,😢,🥺,😔,manual,2026-01-09T05:32:20.456748,1.0,original
+Cô đơn ghê,sadness,4,😢,🥺,😔,augmented,2026-01-09T05:32:20.456748,0.95,synonym
+Cô đơn lắm,sadness,4,😢,🥺,😔,augmented,2026-01-09T05:32:20.456748,0.95,synonym
+Cô đơn lắm,sadness,4,😢,🥺,😔,augmented,2026-01-09T05:32:20.456748,0.95,synonym
+Cô đơn ghê,sadness,4,😢,🥺,😔,augmented,2026-01-09T05:32:20.456748,0.95,synonym
+Cô rất đơn quá,sadness,5,😢,🥺,😔,augmented,2026-01-09T05:32:20.456748,0.9,intensity
+Nhớ nhà,sadness,4,🥺,😢,🏠,manual,2026-01-09T05:32:20.456750,1.0,original
+nhung nhớ nhà,sadness,4,🥺,😢,🏠,augmented,2026-01-09T05:32:20.456750,0.95,synonym
+thương nhớ nhà,sadness,4,🥺,😢,🏠,augmented,2026-01-09T05:32:20.456750,0.95,synonym
+nhung nhớ nhà,sadness,4,🥺,😢,🏠,augmented,2026-01-09T05:32:20.456750,0.95,synonym
+thương nhớ nhà,sadness,4,🥺,😢,🏠,augmented,2026-01-09T05:32:20.456750,0.95,synonym
+Nhớ rất nhà,sadness,5,🥺,😢,🏠,augmented,2026-01-09T05:32:20.456750,0.9,intensity
+Thất vọng quá,sadness,4,😞,😔,💔,manual,2026-01-09T05:32:20.456752,1.0,original
+Thất vọng cực,sadness,4,😞,😔,💔,augmented,2026-01-09T05:32:20.456752,0.95,synonym
+Thất vọng cực,sadness,4,😞,😔,💔,augmented,2026-01-09T05:32:20.456752,0.95,synonym
+Thất vọng ghê,sadness,4,😞,😔,💔,augmented,2026-01-09T05:32:20.456752,0.95,synonym
+Thất vọng ghê,sadness,4,😞,😔,💔,augmented,2026-01-09T05:32:20.456752,0.95,synonym
+Thất rất vọng quá,sadness,5,😞,😔,💔,augmented,2026-01-09T05:32:20.456752,0.9,intensity
+Chán ghê,sadness,3,😕,😔,😒,manual,2026-01-09T05:32:20.456753,1.0,original
+buồn chán ghê,sadness,3,😕,😔,😒,augmented,2026-01-09T05:32:20.456753,0.95,synonym
+buồn chán ghê,sadness,3,😕,😔,😒,augmented,2026-01-09T05:32:20.456753,0.95,synonym
+tẻ nhạt ghê,sadness,3,😕,😔,😒,augmented,2026-01-09T05:32:20.456753,0.95,synonym
+tẻ nhạt ghê,sadness,3,😕,😔,😒,augmented,2026-01-09T05:32:20.456753,0.95,synonym
+Chán rất ghê,sadness,4,😕,😔,😒,augmented,2026-01-09T05:32:20.456753,0.9,intensity
+Mệt mỏi lắm,sadness,3,😩,😞,😔,manual,2026-01-09T05:32:20.456755,1.0,original
+Mệt rất mỏi lắm,sadness,4,😩,😞,😔,augmented,2026-01-09T05:32:20.456755,0.9,intensity
+Tức quá!,anger,5,😠,💢,😤,manual,2026-01-09T05:32:20.456756,1.0,original
+khó chịu quá!,anger,5,😠,💢,😤,augmented,2026-01-09T05:32:20.456756,0.95,synonym
+giận dữ quá!,anger,5,😠,💢,😤,augmented,2026-01-09T05:32:20.456756,0.95,synonym
+giận dữ quá!,anger,5,😠,💢,😤,augmented,2026-01-09T05:32:20.456756,0.95,synonym
+khó chịu quá!,anger,5,😠,💢,😤,augmented,2026-01-09T05:32:20.456756,0.95,synonym
+Sao lại thế được!,anger,4,😡,💢,😤,manual,2026-01-09T05:32:20.456758,1.0,original
+Sao rất lại thế được!,anger,5,😡,💢,😤,augmented,2026-01-09T05:32:20.456758,0.9,intensity
+Bực mình ghê!,anger,4,😤,💢,😠,manual,2026-01-09T05:32:20.456760,1.0,original
+Bực rất mình ghê!,anger,5,😤,💢,😠,augmented,2026-01-09T05:32:20.456760,0.9,intensity
+Không chấp nhận được!,anger,5,😡,👊,💢,manual,2026-01-09T05:32:20.456762,1.0,original
+Quá đáng!,anger,4,😠,💢,🤬,manual,2026-01-09T05:32:20.456763,1.0,original
+ghê đáng!,anger,4,😠,💢,🤬,augmented,2026-01-09T05:32:20.456763,0.95,synonym
+cực đáng!,anger,4,😠,💢,🤬,augmented,2026-01-09T05:32:20.456763,0.95,synonym
+ghê đáng!,anger,4,😠,💢,🤬,augmented,2026-01-09T05:32:20.456763,0.95,synonym
+thật đáng!,anger,4,😠,💢,🤬,augmented,2026-01-09T05:32:20.456763,0.95,synonym
+Quá rất đáng!,anger,5,😠,💢,🤬,augmented,2026-01-09T05:32:20.456763,0.9,intensity
+Ghét cay ghét đắng!,anger,5,🤬,💢,😡,manual,2026-01-09T05:32:20.456765,1.0,original
+chán ghét cay ghét đắng!,anger,5,🤬,💢,😡,augmented,2026-01-09T05:32:20.456765,0.95,synonym
+căm ghét cay ghét đắng!,anger,5,🤬,💢,😡,augmented,2026-01-09T05:32:20.456765,0.95,synonym
+căm ghét cay ghét đắng!,anger,5,🤬,💢,😡,augmented,2026-01-09T05:32:20.456765,0.95,synonym
+Ghét cay chán ghét đắng!,anger,5,🤬,💢,😡,augmented,2026-01-09T05:32:20.456765,0.95,synonym
+Điên tiết lên được!,anger,5,🤬,💢,😤,manual,2026-01-09T05:32:20.456767,1.0,original
+Mày làm gì vậy!,anger,4,😠,💢,😤,manual,2026-01-09T05:32:20.456768,1.0,original
+Mày rất làm gì vậy!,anger,5,😠,💢,😤,augmented,2026-01-09T05:32:20.456768,0.9,intensity
+Khó chịu quá!,anger,3,😒,😤,💢,manual,2026-01-09T05:32:20.456770,1.0,original
+Khó rất chịu quá!,anger,4,😒,😤,💢,augmented,2026-01-09T05:32:20.456770,0.9,intensity
+Sốt ruột quá!,anger,3,😤,⏰,😠,manual,2026-01-09T05:32:20.456772,1.0,original
+Sốt rất ruột quá!,anger,4,😤,⏰,😠,augmented,2026-01-09T05:32:20.456772,0.9,intensity
+Sợ quá!,fear,5,😨,😱,😰,manual,2026-01-09T05:32:20.456773,1.0,original
+kinh sợ quá!,fear,5,😨,😱,😰,augmented,2026-01-09T05:32:20.456773,0.95,synonym
+hoảng sợ quá!,fear,5,😨,😱,😰,augmented,2026-01-09T05:32:20.456773,0.95,synonym
+kinh sợ quá!,fear,5,😨,😱,😰,augmented,2026-01-09T05:32:20.456773,0.95,synonym
+kinh sợ quá!,fear,5,😨,😱,😰,augmented,2026-01-09T05:32:20.456773,0.95,synonym
+Lo lắng quá!,fear,4,😰,😟,🥺,manual,2026-01-09T05:32:20.456775,1.0,original
+lo lắng lắng quá!,fear,4,😰,😟,🥺,augmented,2026-01-09T05:32:20.456775,0.95,synonym
+bồn chồn lắng quá!,fear,4,😰,😟,🥺,augmented,2026-01-09T05:32:20.456775,0.95,synonym
+lo lắng lắng quá!,fear,4,😰,😟,🥺,augmented,2026-01-09T05:32:20.456775,0.95,synonym
+bồn chồn lắng quá!,fear,4,😰,😟,🥺,augmented,2026-01-09T05:32:20.456775,0.95,synonym
+Lo rất lắng quá!,fear,5,😰,😟,🥺,augmented,2026-01-09T05:32:20.456775,0.9,intensity
+Căng thẳng quá!,fear,4,😰,😬,💦,manual,2026-01-09T05:32:20.456777,1.0,original
+Căng rất thẳng quá!,fear,5,😰,😬,💦,augmented,2026-01-09T05:32:20.456777,0.9,intensity
+Không dám đâu!,fear,3,😨,🙈,😰,manual,2026-01-09T05:32:20.456778,1.0,original
+Không rất dám đâu!,fear,4,😨,🙈,😰,augmented,2026-01-09T05:32:20.456778,0.9,intensity
+Run hết cả người!,fear,5,😱,😨,💀,manual,2026-01-09T05:32:20.456780,1.0,original
+Hồi hộp quá!,fear,3,😬,💓,😰,manual,2026-01-09T05:32:20.456781,1.0,original
+Hồi rất hộp quá!,fear,4,😬,💓,😰,augmented,2026-01-09T05:32:20.456781,0.9,intensity
+Mai thi rồi!,fear,4,😰,📚,😱,manual,2026-01-09T05:32:20.456783,1.0,original
+Mai rất thi rồi!,fear,5,😰,📚,😱,augmented,2026-01-09T05:32:20.456783,0.9,intensity
+Đáng sợ thật!,fear,4,😱,😨,👻,manual,2026-01-09T05:32:20.456785,1.0,original
+Đáng lo sợ thật!,fear,4,😱,😨,👻,augmented,2026-01-09T05:32:20.456785,0.95,synonym
+Đáng hoảng sợ thật!,fear,4,😱,😨,👻,augmented,2026-01-09T05:32:20.456785,0.95,synonym
+Đáng lo sợ thật!,fear,4,😱,😨,👻,augmented,2026-01-09T05:32:20.456785,0.95,synonym
+Đáng lo sợ thật!,fear,4,😱,😨,👻,augmented,2026-01-09T05:32:20.456785,0.95,synonym
+Đáng rất sợ thật!,fear,5,😱,😨,👻,augmented,2026-01-09T05:32:20.456785,0.9,intensity
+Hoang mang quá!,fear,4,😰,😟,❓,manual,2026-01-09T05:32:20.456786,1.0,original
+Hoang rất mang quá!,fear,5,😰,😟,❓,augmented,2026-01-09T05:32:20.456786,0.9,intensity
+Không biết sao!,fear,3,😰,🤔,😟,manual,2026-01-09T05:32:20.456793,1.0,original
+Không rất biết sao!,fear,4,😰,🤔,😟,augmented,2026-01-09T05:32:20.456793,0.9,intensity
+Thật sao!,surprise,4,😮,😲,🤯,manual,2026-01-09T05:32:20.456795,1.0,original
+Thật rất sao!,surprise,5,😮,😲,🤯,augmented,2026-01-09T05:32:20.456795,0.9,intensity
+Không tin được!,surprise,5,😱,🤯,😮,manual,2026-01-09T05:32:20.456797,1.0,original
+Ơ kìa!,surprise,3,😮,❓,😯,manual,2026-01-09T05:32:20.456799,1.0,original
+Ơ rất kìa!,surprise,4,😮,❓,😯,augmented,2026-01-09T05:32:20.456799,0.9,intensity
+Bất ngờ quá!,surprise,5,🤯,😲,🎉,manual,2026-01-09T05:32:20.456800,1.0,original
+Wow!,surprise,4,🤩,😮,✨,manual,2026-01-09T05:32:20.456802,1.0,original
+Trời ơi!,surprise,4,😱,😮,🙀,manual,2026-01-09T05:32:20.456804,1.0,original
+Trời rất ơi!,surprise,5,😱,😮,🙀,augmented,2026-01-09T05:32:20.456804,0.9,intensity
+Không ngờ!,surprise,4,😲,😮,🤯,manual,2026-01-09T05:32:20.456805,1.0,original
+Không rất ngờ!,surprise,5,😲,😮,🤯,augmented,2026-01-09T05:32:20.456805,0.9,intensity
+Ủa!,surprise,3,🤔,😮,❓,manual,2026-01-09T05:32:20.456807,1.0,original
+Gì đây!,surprise,3,😮,🤔,❓,manual,2026-01-09T05:32:20.456809,1.0,original
+Gì rất đây!,surprise,4,😮,🤔,❓,augmented,2026-01-09T05:32:20.456809,0.9,intensity
+Đùa à!,surprise,4,😲,🤣,😮,manual,2026-01-09T05:32:20.456810,1.0,original
+Đùa rất à!,surprise,5,😲,🤣,😮,augmented,2026-01-09T05:32:20.456810,0.9,intensity
+Ghê quá!,disgust,5,🤢,🤮,😖,manual,2026-01-09T05:32:20.456812,1.0,original
+Kinh dị!,disgust,4,😱,🤢,👎,manual,2026-01-09T05:32:20.456814,1.0,original
+Kinh rất dị!,disgust,5,😱,🤢,👎,augmented,2026-01-09T05:32:20.456814,0.9,intensity
+Không chịu được!,disgust,4,🤮,😖,❌,manual,2026-01-09T05:32:20.456815,1.0,original
+Không rất chịu được!,disgust,5,🤮,😖,❌,augmented,2026-01-09T05:32:20.456815,0.9,intensity
+Dơ bẩn quá!,disgust,4,🤢,😷,🚫,manual,2026-01-09T05:32:20.456817,1.0,original
+Dơ rất bẩn quá!,disgust,5,🤢,😷,🚫,augmented,2026-01-09T05:32:20.456817,0.9,intensity
+Kỳ quá!,disgust,3,😒,🙄,😕,manual,2026-01-09T05:32:20.456819,1.0,original
+Kỳ rất quá!,disgust,4,😒,🙄,😕,augmented,2026-01-09T05:32:20.456819,0.9,intensity
+Ớn lạnh!,disgust,4,😖,🤢,😬,manual,2026-01-09T05:32:20.456820,1.0,original
+Ớn rất lạnh!,disgust,5,😖,🤢,😬,augmented,2026-01-09T05:32:20.456820,0.9,intensity
+Không thích!,disgust,3,👎,😕,❌,manual,2026-01-09T05:32:20.456822,1.0,original
+Không rất thích!,disgust,4,👎,😕,❌,augmented,2026-01-09T05:32:20.456822,0.9,intensity
+Tệ quá!,disgust,4,👎,😤,💔,manual,2026-01-09T05:32:20.456824,1.0,original
+Tệ rất quá!,disgust,5,👎,😤,💔,augmented,2026-01-09T05:32:20.456824,0.9,intensity
+Dở ẹc!,disgust,3,👎,😒,🙄,manual,2026-01-09T05:32:20.456825,1.0,original
+Dở rất ẹc!,disgust,4,👎,😒,🙄,augmented,2026-01-09T05:32:20.456825,0.9,intensity
+Chán ngấy!,disgust,4,😒,🙄,😤,manual,2026-01-09T05:32:20.456827,1.0,original
+buồn chán ngấy!,disgust,4,😒,🙄,😤,augmented,2026-01-09T05:32:20.456827,0.95,synonym
+buồn chán ngấy!,disgust,4,😒,🙄,😤,augmented,2026-01-09T05:32:20.456827,0.95,synonym
+tẻ nhạt ngấy!,disgust,4,😒,🙄,😤,augmented,2026-01-09T05:32:20.456827,0.95,synonym
+tẻ nhạt ngấy!,disgust,4,😒,🙄,😤,augmented,2026-01-09T05:32:20.456827,0.95,synonym
+Chán rất ngấy!,disgust,5,😒,🙄,😤,augmented,2026-01-09T05:32:20.456827,0.9,intensity
+Tin bạn!,trust,4,🤝,💪,👍,manual,2026-01-09T05:32:20.456828,1.0,original
+Tin rất bạn!,trust,5,🤝,💪,👍,augmented,2026-01-09T05:32:20.456828,0.9,intensity
+Cậu làm được!,trust,4,💪,✨,👏,manual,2026-01-09T05:32:20.456830,1.0,original
+Cậu rất làm được!,trust,5,💪,✨,👏,augmented,2026-01-09T05:32:20.456830,0.9,intensity
+Mình ủng hộ!,trust,4,👍,💪,🤝,manual,2026-01-09T05:32:20.456832,1.0,original
+Mình rất ủng hộ!,trust,5,👍,💪,🤝,augmented,2026-01-09T05:32:20.456832,0.9,intensity
+Yên tâm đi!,trust,4,😌,🤗,👌,manual,2026-01-09T05:32:20.456834,1.0,original
+Yên rất tâm đi!,trust,5,😌,🤗,👌,augmented,2026-01-09T05:32:20.456834,0.9,intensity
+Đáng tin cậy!,trust,4,🤝,✅,💯,manual,2026-01-09T05:32:20.456835,1.0,original
+Đáng rất tin cậy!,trust,5,🤝,✅,💯,augmented,2026-01-09T05:32:20.456835,0.9,intensity
+Cùng nhau nhé!,trust,4,🤝,💪,❤️,manual,2026-01-09T05:32:20.456837,1.0,original
+Cùng rất nhau nhé!,trust,5,🤝,💪,❤️,augmented,2026-01-09T05:32:20.456837,0.9,intensity
+Không lo!,trust,3,👌,😊,✌️,manual,2026-01-09T05:32:20.456838,1.0,original
+Không rất lo!,trust,4,👌,😊,✌️,augmented,2026-01-09T05:32:20.456838,0.9,intensity
+Chắc chắn!,trust,5,✅,💯,👍,manual,2026-01-09T05:32:20.456840,1.0,original
+Bạn giỏi lắm!,trust,4,👏,🌟,💪,manual,2026-01-09T05:32:20.456842,1.0,original
+Bạn rất giỏi lắm!,trust,5,👏,🌟,💪,augmented,2026-01-09T05:32:20.456842,0.9,intensity
+Tuyệt vời!,trust,4,👍,✨,🔥,manual,2026-01-09T05:32:20.456843,1.0,original
+Tuyệt rất vời!,trust,5,👍,✨,🔥,augmented,2026-01-09T05:32:20.456843,0.9,intensity
+Mong chờ quá!,anticipation,4,🤞,😊,✨,manual,2026-01-09T05:32:20.456845,1.0,original
+Mong rất chờ quá!,anticipation,5,🤞,😊,✨,augmented,2026-01-09T05:32:20.456845,0.9,intensity
+Háo hức quá!,anticipation,5,🤩,😆,🎊,manual,2026-01-09T05:32:20.456846,1.0,original
+Không đợi được nữa!,anticipation,5,😆,🔥,⏰,manual,2026-01-09T05:32:20.456848,1.0,original
+Sắp đến rồi!,anticipation,4,🎉,⏰,✨,manual,2026-01-09T05:32:20.456850,1.0,original
+Sắp rất đến rồi!,anticipation,5,🎉,⏰,✨,augmented,2026-01-09T05:32:20.456850,0.9,intensity
+Chờ đợi!,anticipation,3,⏰,🤞,😊,manual,2026-01-09T05:32:20.456852,1.0,original
+Chờ rất đợi!,anticipation,4,⏰,🤞,😊,augmented,2026-01-09T05:32:20.456852,0.9,intensity
+Hy vọng!,anticipation,4,🤞,✨,🙏,manual,2026-01-09T05:32:20.456854,1.0,original
+Hy rất vọng!,anticipation,5,🤞,✨,🙏,augmented,2026-01-09T05:32:20.456854,0.9,intensity
+Mai là sinh nhật!,anticipation,5,🎂,🎉,🤩,manual,2026-01-09T05:32:20.456855,1.0,original
+Còn 3 ngày nữa!,anticipation,4,⏳,🤞,😊,manual,2026-01-09T05:32:20.456857,1.0,original
+Còn rất 3 ngày nữa!,anticipation,5,⏳,🤞,😊,augmented,2026-01-09T05:32:20.456857,0.9,intensity
+Cuối tuần rồi!,anticipation,4,🎉,🥳,✨,manual,2026-01-09T05:32:20.456859,1.0,original
+Cuối rất tuần rồi!,anticipation,5,🎉,🥳,✨,augmented,2026-01-09T05:32:20.456859,0.9,intensity
+Sắp nghỉ hè!,anticipation,5,🏖️,☀️,🎉,manual,2026-01-09T05:32:20.456860,1.0,original
+Được thưởng rồi!,joy,5,🤑,🎉,💰,manual,2026-01-09T05:32:20.456862,1.0,original
+Pass rồi!,joy,5,🎉,😊,✨,manual,2026-01-09T05:32:20.456865,1.0,original
+Được tăng ca!,joy,3,😊,💼,👍,manual,2026-01-09T05:32:20.456867,1.0,original
+Được rất tăng ca!,joy,4,😊,💼,👍,augmented,2026-01-09T05:32:20.456867,0.9,intensity
+Trúng số rồi!,joy,5,🤩,💰,🎊,manual,2026-01-09T05:32:20.456868,1.0,original
+Được khen!,joy,4,😊,🌟,👏,manual,2026-01-09T05:32:20.456870,1.0,original
+Được rất khen!,joy,5,😊,🌟,👏,augmented,2026-01-09T05:32:20.456870,0.9,intensity
+Ế quá!,sadness,4,😔,💔,😢,manual,2026-01-09T05:32:20.456872,1.0,original
+Ế rất quá!,sadness,5,😔,💔,😢,augmented,2026-01-09T05:32:20.456872,0.9,intensity
+Không ai hiểu,sadness,4,😢,💔,😞,manual,2026-01-09T05:32:20.456873,1.0,original
+Không rất ai hiểu,sadness,5,😢,💔,😞,augmented,2026-01-09T05:32:20.456873,0.9,intensity
+Hụt hẫng,sadness,3,😔,💔,😕,manual,2026-01-09T05:32:20.456875,1.0,original
+Hụt rất hẫng,sadness,4,😔,💔,😕,augmented,2026-01-09T05:32:20.456875,0.9,intensity
+Trượt visa rồi,sadness,5,😭,😞,💔,manual,2026-01-09T05:32:20.456877,1.0,original
+Bị từ chối,sadness,4,😢,💔,😔,manual,2026-01-09T05:32:20.456878,1.0,original
+Bị rất từ chối,sadness,5,😢,💔,😔,augmented,2026-01-09T05:32:20.456878,0.9,intensity
+Phí thời gian!,anger,4,😤,💢,⏰,manual,2026-01-09T05:32:20.456880,1.0,original
+Phí rất thời gian!,anger,5,😤,💢,⏰,augmented,2026-01-09T05:32:20.456880,0.9,intensity
+Vô trách nhiệm!,anger,5,😡,💢,👊,manual,2026-01-09T05:32:20.456883,1.0,original
+Lừa dối!,anger,5,😠,💢,😤,manual,2026-01-09T05:32:20.456885,1.0,original
+Bất công!,anger,4,😡,💢,😤,manual,2026-01-09T05:32:20.456887,1.0,original
+Bất rất công!,anger,5,😡,💢,😤,augmented,2026-01-09T05:32:20.456887,0.9,intensity
+Thái độ tệ!,anger,4,😠,💢,👎,manual,2026-01-09T05:32:20.456889,1.0,original
+Thái rất độ tệ!,anger,5,😠,💢,👎,augmented,2026-01-09T05:32:20.456889,0.9,intensity
+Nguy hiểm quá!,fear,5,😱,😨,⚠️,manual,2026-01-09T05:32:20.456890,1.0,original
+Không chắc!,fear,3,😰,🤔,😟,manual,2026-01-09T05:32:20.456892,1.0,original
+Không rất chắc!,fear,4,😰,🤔,😟,augmented,2026-01-09T05:32:20.456892,0.9,intensity
+Lo âu quá!,fear,4,😰,😟,💭,manual,2026-01-09T05:32:20.456893,1.0,original
+lo âu âu quá!,fear,4,😰,😟,💭,augmented,2026-01-09T05:32:20.456893,0.95,synonym
+lo lắng âu quá!,fear,4,😰,😟,💭,augmented,2026-01-09T05:32:20.456893,0.95,synonym
+lo lắng âu quá!,fear,4,😰,😟,💭,augmented,2026-01-09T05:32:20.456893,0.95,synonym
+bồn chồn âu quá!,fear,4,😰,😟,💭,augmented,2026-01-09T05:32:20.456893,0.95,synonym
+Lo rất âu quá!,fear,5,😰,😟,💭,augmented,2026-01-09T05:32:20.456893,0.9,intensity
+Sợ bị phạt!,fear,4,😨,😰,⚠️,manual,2026-01-09T05:32:20.456895,1.0,original
+lo sợ bị phạt!,fear,4,😨,😰,⚠️,augmented,2026-01-09T05:32:20.456895,0.95,synonym
+kinh sợ bị phạt!,fear,4,😨,😰,⚠️,augmented,2026-01-09T05:32:20.456895,0.95,synonym
+kinh sợ bị phạt!,fear,4,😨,😰,⚠️,augmented,2026-01-09T05:32:20.456895,0.95,synonym
+hoảng sợ bị phạt!,fear,4,😨,😰,⚠️,augmented,2026-01-09T05:32:20.456895,0.95,synonym
+Sợ rất bị phạt!,fear,5,😨,😰,⚠️,augmented,2026-01-09T05:32:20.456895,0.9,intensity
+Cẩn thận!,fear,3,😬,⚠️,👀,manual,2026-01-09T05:32:20.456897,1.0,original
+Cẩn rất thận!,fear,4,😬,⚠️,👀,augmented,2026-01-09T05:32:20.456897,0.9,intensity
+Không thể tin!,surprise,5,😱,🤯,❗,manual,2026-01-09T05:32:20.456898,1.0,original
+Thật ư!,surprise,4,😮,😲,❓,manual,2026-01-09T05:32:20.456900,1.0,original
+Thật rất ư!,surprise,5,😮,😲,❓,augmented,2026-01-09T05:32:20.456900,0.9,intensity
+Sao lại vậy!,surprise,4,😮,😲,❗,manual,2026-01-09T05:32:20.456902,1.0,original
+Sao rất lại vậy!,surprise,5,😮,😲,❗,augmented,2026-01-09T05:32:20.456902,0.9,intensity
+À!,surprise,3,😮,💡,🤔,manual,2026-01-09T05:32:20.456903,1.0,original
+Bất ngờ thật!,surprise,4,😲,😮,✨,manual,2026-01-09T05:32:20.456905,1.0,original
+Bất rất ngờ thật!,surprise,5,😲,😮,✨,augmented,2026-01-09T05:32:20.456905,0.9,intensity
+Hôi quá!,disgust,4,🤢,😷,👃,manual,2026-01-09T05:32:20.456907,1.0,original
+Hôi rất quá!,disgust,5,🤢,😷,👃,augmented,2026-01-09T05:32:20.456907,0.9,intensity
+Kinh tởm!,disgust,5,🤮,😖,🤢,manual,2026-01-09T05:32:20.456908,1.0,original
+Ghê tởm quá!,disgust,5,🤢,🤮,😷,manual,2026-01-09T05:32:20.456910,1.0,original
+Không ổn!,disgust,3,😕,👎,❌,manual,2026-01-09T05:32:20.456912,1.0,original
+Không rất ổn!,disgust,4,😕,👎,❌,augmented,2026-01-09T05:32:20.456912,0.9,intensity
+Rất tệ!,disgust,4,👎,😤,🚫,manual,2026-01-09T05:32:20.456913,1.0,original
+vô cùng tệ!,disgust,4,👎,😤,🚫,augmented,2026-01-09T05:32:20.456913,0.95,synonym
+cực kỳ tệ!,disgust,4,👎,😤,🚫,augmented,2026-01-09T05:32:20.456913,0.95,synonym
+siêu tệ!,disgust,4,👎,😤,🚫,augmented,2026-01-09T05:32:20.456913,0.95,synonym
+siêu tệ!,disgust,4,👎,😤,🚫,augmented,2026-01-09T05:32:20.456913,0.95,synonym
+Rất cực kỳ tệ!,disgust,5,👎,😤,🚫,augmented,2026-01-09T05:32:20.456913,0.9,intensity
+Cố lên!,trust,4,💪,✨,👊,manual,2026-01-09T05:32:20.456915,1.0,original
+Cố rất lên!,trust,5,💪,✨,👊,augmented,2026-01-09T05:32:20.456915,0.9,intensity
+Được đó!,trust,3,👍,😊,✅,manual,2026-01-09T05:32:20.456917,1.0,original
+Được rất đó!,trust,4,👍,😊,✅,augmented,2026-01-09T05:32:20.456917,0.9,intensity
+OK nhé!,trust,3,👌,😊,✌️,manual,2026-01-09T05:32:20.456918,1.0,original
+OK rất nhé!,trust,4,👌,😊,✌️,augmented,2026-01-09T05:32:20.456918,0.9,intensity
+Hoàn hảo!,trust,5,💯,✨,🌟,manual,2026-01-09T05:32:20.456920,1.0,original
+Tốt lắm!,trust,4,👍,👏,😊,manual,2026-01-09T05:32:20.456921,1.0,original
+Tốt rất lắm!,trust,5,👍,👏,😊,augmented,2026-01-09T05:32:20.456921,0.9,intensity
+Sắp tết rồi!,anticipation,5,🎉,🧧,🎊,manual,2026-01-09T05:32:20.456923,1.0,original
+Chờ đợi kết quả!,anticipation,4,⏰,🤞,📋,manual,2026-01-09T05:32:20.456925,1.0,original
+Chờ rất đợi kết quả!,anticipation,5,⏰,🤞,📋,augmented,2026-01-09T05:32:20.456925,0.9,intensity
+Sắp gặp!,anticipation,4,😊,⏰,🤗,manual,2026-01-09T05:32:20.456927,1.0,original
+Sắp rất gặp!,anticipation,5,😊,⏰,🤗,augmented,2026-01-09T05:32:20.456927,0.9,intensity
+Mong được đi!,anticipation,4,🤞,✈️,😊,manual,2026-01-09T05:32:20.456928,1.0,original
+Mong rất được đi!,anticipation,5,🤞,✈️,😊,augmented,2026-01-09T05:32:20.456928,0.9,intensity
+Sắp có tin!,anticipation,4,⏰,🤞,📱,manual,2026-01-09T05:32:20.456930,1.0,original
+Sắp rất có tin!,anticipation,5,⏰,🤞,📱,augmented,2026-01-09T05:32:20.456930,0.9,intensity
+Ngon quá!,joy,4,😋,👍,✨,manual,2026-01-09T05:32:20.456931,1.0,original
+Ngon rất quá!,joy,5,😋,👍,✨,augmented,2026-01-09T05:32:20.456931,0.9,intensity
+Tốt đẹp!,joy,4,😊,✨,👌,manual,2026-01-09T05:32:20.456933,1.0,original
+Tốt rất đẹp!,joy,5,😊,✨,👌,augmented,2026-01-09T05:32:20.456933,0.9,intensity
+Được rồi!,joy,3,😊,👍,✅,manual,2026-01-09T05:32:20.456935,1.0,original
+Được rất rồi!,joy,4,😊,👍,✅,augmented,2026-01-09T05:32:20.456935,0.9,intensity
+Vui lắm!,joy,4,😄,😊,🎉,manual,2026-01-09T05:32:20.456938,1.0,original
+hạnh phúc lắm!,joy,4,😄,😊,🎉,augmented,2026-01-09T05:32:20.456938,0.95,synonym
+hạnh phúc lắm!,joy,4,😄,😊,🎉,augmented,2026-01-09T05:32:20.456938,0.95,synonym
+hào hứng lắm!,joy,4,😄,😊,🎉,augmented,2026-01-09T05:32:20.456938,0.95,synonym
+hạnh phúc lắm!,joy,4,😄,😊,🎉,augmented,2026-01-09T05:32:20.456938,0.95,synonym
+Vui rất lắm!,joy,5,😄,😊,🎉,augmented,2026-01-09T05:32:20.456938,0.9,intensity
+Xinh quá!,joy,4,😍,✨,💕,manual,2026-01-09T05:32:20.456939,1.0,original
+Xinh rất quá!,joy,5,😍,✨,💕,augmented,2026-01-09T05:32:20.456939,0.9,intensity
+Đẹp tuyệt!,joy,5,🤩,✨,😍,manual,2026-01-09T05:32:20.456941,1.0,original
+Cảm động quá!,joy,5,😭,❤️,🥺,manual,2026-01-09T05:32:20.456943,1.0,original
+Hài lòng!,joy,4,😊,👍,✨,manual,2026-01-09T05:32:20.456944,1.0,original
+Hài rất lòng!,joy,5,😊,👍,✨,augmented,2026-01-09T05:32:20.456944,0.9,intensity
+Buồn thiu!,sadness,4,😔,😢,💔,manual,2026-01-09T05:32:20.456946,1.0,original
+u sầu thiu!,sadness,4,😔,😢,💔,augmented,2026-01-09T05:32:20.456946,0.95,synonym
+u sầu thiu!,sadness,4,😔,😢,💔,augmented,2026-01-09T05:32:20.456946,0.95,synonym
+đau buồn thiu!,sadness,4,😔,😢,💔,augmented,2026-01-09T05:32:20.456946,0.95,synonym
+thất vọng thiu!,sadness,4,😔,😢,💔,augmented,2026-01-09T05:32:20.456946,0.95,synonym
+Buồn rất thiu!,sadness,5,😔,😢,💔,augmented,2026-01-09T05:32:20.456946,0.9,intensity
+Đau lòng!,sadness,5,💔,😭,😢,manual,2026-01-09T05:32:20.456948,1.0,original
+xót xa lòng!,sadness,5,💔,😭,😢,augmented,2026-01-09T05:32:20.456948,0.95,synonym
+khổ sở lòng!,sadness,5,💔,😭,😢,augmented,2026-01-09T05:32:20.456948,0.95,synonym
+khổ sở lòng!,sadness,5,💔,😭,😢,augmented,2026-01-09T05:32:20.456948,0.95,synonym
+đau đớn lòng!,sadness,5,💔,😭,😢,augmented,2026-01-09T05:32:20.456948,0.95,synonym
+Xót xa!,sadness,5,😢,💔,😭,manual,2026-01-09T05:32:20.456949,1.0,original
+Tiếc nuối!,sadness,4,😔,😢,💔,manual,2026-01-09T05:32:20.456951,1.0,original
+Tiếc rất nuối!,sadness,5,😔,😢,💔,augmented,2026-01-09T05:32:20.456951,0.9,intensity
+Thương quá!,sadness,4,🥺,😢,💔,manual,2026-01-09T05:32:20.456952,1.0,original
+Thương rất quá!,sadness,5,🥺,😢,💔,augmented,2026-01-09T05:32:20.456952,0.9,intensity
+Mệt nản!,sadness,4,😩,😔,😞,manual,2026-01-09T05:32:20.456954,1.0,original
+Mệt rất nản!,sadness,5,😩,😔,😞,augmented,2026-01-09T05:32:20.456954,0.9,intensity
+Chán nản!,sadness,3,😔,😕,😒,manual,2026-01-09T05:32:20.456956,1.0,original
+tẻ nhạt nản!,sadness,3,😔,😕,😒,augmented,2026-01-09T05:32:20.456956,0.95,synonym
+buồn chán nản!,sadness,3,😔,😕,😒,augmented,2026-01-09T05:32:20.456956,0.95,synonym
+buồn chán nản!,sadness,3,😔,😕,😒,augmented,2026-01-09T05:32:20.456956,0.95,synonym
+buồn chán nản!,sadness,3,😔,😕,😒,augmented,2026-01-09T05:32:20.456956,0.95,synonym
+Chán rất nản!,sadness,4,😔,😕,😒,augmented,2026-01-09T05:32:20.456956,0.9,intensity
+Tuyệt vọng!,sadness,5,😭,😞,💔,manual,2026-01-09T05:32:20.456957,1.0,original
+Tức lắm!,anger,4,😤,💢,😠,manual,2026-01-09T05:32:20.456959,1.0,original
+giận dữ lắm!,anger,4,😤,💢,😠,augmented,2026-01-09T05:32:20.456959,0.95,synonym
+bực mình lắm!,anger,4,😤,💢,😠,augmented,2026-01-09T05:32:20.456959,0.95,synonym
+bực mình lắm!,anger,4,😤,💢,😠,augmented,2026-01-09T05:32:20.456959,0.95,synonym
+khó chịu lắm!,anger,4,😤,💢,😠,augmented,2026-01-09T05:32:20.456959,0.95,synonym
+Tức rất lắm!,anger,5,😤,💢,😠,augmented,2026-01-09T05:32:20.456959,0.9,intensity
+Ức chế!,anger,4,😤,💢,😡,manual,2026-01-09T05:32:20.456960,1.0,original
+Ức rất chế!,anger,5,😤,💢,😡,augmented,2026-01-09T05:32:20.456960,0.9,intensity
+Chướng tai!,anger,3,😒,😤,💢,manual,2026-01-09T05:32:20.456962,1.0,original
+Chướng rất tai!,anger,4,😒,😤,💢,augmented,2026-01-09T05:32:20.456962,0.9,intensity
+Không ưa!,anger,3,😒,👎,😤,manual,2026-01-09T05:32:20.456964,1.0,original
+Không rất ưa!,anger,4,😒,👎,😤,augmented,2026-01-09T05:32:20.456964,0.9,intensity
+Phẫn nộ!,anger,5,😡,💢,🤬,manual,2026-01-09T05:32:20.456965,1.0,original
+Bực bội!,anger,4,😤,😠,💢,manual,2026-01-09T05:32:20.456969,1.0,original
+Bực rất bội!,anger,5,😤,😠,💢,augmented,2026-01-09T05:32:20.456969,0.9,intensity
+Nóng giận!,anger,5,😡,💢,🔥,manual,2026-01-09T05:32:20.456970,1.0,original
+Chán không!,anger,3,😒,😤,😕,manual,2026-01-09T05:32:20.456972,1.0,original
+buồn chán không!,anger,3,😒,😤,😕,augmented,2026-01-09T05:32:20.456972,0.95,synonym
+tẻ nhạt không!,anger,3,😒,😤,😕,augmented,2026-01-09T05:32:20.456972,0.95,synonym
+buồn chán không!,anger,3,😒,😤,😕,augmented,2026-01-09T05:32:20.456972,0.95,synonym
+tẻ nhạt không!,anger,3,😒,😤,😕,augmented,2026-01-09T05:32:20.456972,0.95,synonym
+Chán rất không!,anger,4,😒,😤,😕,augmented,2026-01-09T05:32:20.456972,0.9,intensity
+Khủng khiếp!,fear,5,😱,😨,😰,manual,2026-01-09T05:32:20.456974,1.0,original
+Rùng mình!,fear,4,😨,😰,🥶,manual,2026-01-09T05:32:20.456975,1.0,original
+Rùng rất mình!,fear,5,😨,😰,🥶,augmented,2026-01-09T05:32:20.456975,0.9,intensity
+E dè!,fear,3,😰,😟,🤔,manual,2026-01-09T05:32:20.456977,1.0,original
+E rất dè!,fear,4,😰,😟,🤔,augmented,2026-01-09T05:32:20.456977,0.9,intensity
+Bất an!,fear,4,😰,😟,💭,manual,2026-01-09T05:32:20.456979,1.0,original
+Bất rất an!,fear,5,😰,😟,💭,augmented,2026-01-09T05:32:20.456979,0.9,intensity
+Lo lắng!,fear,4,😰,😟,😬,manual,2026-01-09T05:32:20.456980,1.0,original
+lo lắng lắng!,fear,4,😰,😟,😬,augmented,2026-01-09T05:32:20.456980,0.95,synonym
+bồn chồn lắng!,fear,4,😰,😟,😬,augmented,2026-01-09T05:32:20.456980,0.95,synonym
+lo lắng lắng!,fear,4,😰,😟,😬,augmented,2026-01-09T05:32:20.456980,0.95,synonym
+lo âu lắng!,fear,4,😰,😟,😬,augmented,2026-01-09T05:32:20.456980,0.95,synonym
+Lo rất lắng!,fear,5,😰,😟,😬,augmented,2026-01-09T05:32:20.456980,0.9,intensity
+Hoảng hốt!,fear,5,😱,😨,😰,manual,2026-01-09T05:32:20.456982,1.0,original
+Run sợ!,fear,5,😱,😨,🥶,manual,2026-01-09T05:32:20.456984,1.0,original
+Ngại ngùng!,fear,3,😰,😊,🙈,manual,2026-01-09T05:32:20.456985,1.0,original
+Ngại rất ngùng!,fear,4,😰,😊,🙈,augmented,2026-01-09T05:32:20.456985,0.9,intensity
+Sốc nặng!,surprise,5,😱,🤯,😲,manual,2026-01-09T05:32:20.456987,1.0,original
+Ngỡ ngàng!,surprise,4,😮,😲,🤯,manual,2026-01-09T05:32:20.456988,1.0,original
+Ngỡ rất ngàng!,surprise,5,😮,😲,🤯,augmented,2026-01-09T05:32:20.456988,0.9,intensity
+Kinh ngạc!,surprise,5,😲,🤯,😮,manual,2026-01-09T05:32:20.456990,1.0,original
+Lạ thật!,surprise,3,😮,🤔,😯,manual,2026-01-09T05:32:20.456992,1.0,original
+Lạ rất thật!,surprise,4,😮,🤔,😯,augmented,2026-01-09T05:32:20.456992,0.9,intensity
+Ồ!,surprise,3,😮,😲,❗,manual,2026-01-09T05:32:20.456993,1.0,original
+Hả!,surprise,3,😮,😯,❓,manual,2026-01-09T05:32:20.456995,1.0,original
+Lạ lùng!,surprise,4,😮,🤔,😲,manual,2026-01-09T05:32:20.456997,1.0,original
+Lạ rất lùng!,surprise,5,😮,🤔,😲,augmented,2026-01-09T05:32:20.456997,0.9,intensity
+Chưa thấy!,surprise,4,😮,😲,🤯,manual,2026-01-09T05:32:20.456998,1.0,original
+Chưa rất thấy!,surprise,5,😮,😲,🤯,augmented,2026-01-09T05:32:20.456998,0.9,intensity
+Phản cảm!,disgust,4,😖,😒,🙄,manual,2026-01-09T05:32:20.457000,1.0,original
+Phản rất cảm!,disgust,5,😖,😒,🙄,augmented,2026-01-09T05:32:20.457000,0.9,intensity
+Thất vọng!,disgust,4,😞,👎,😔,manual,2026-01-09T05:32:20.457001,1.0,original
+Thất rất vọng!,disgust,5,😞,👎,😔,augmented,2026-01-09T05:32:20.457001,0.9,intensity
+Chất lượng kém!,disgust,4,👎,😤,😒,manual,2026-01-09T05:32:20.457003,1.0,original
+Chất rất lượng kém!,disgust,5,👎,😤,😒,augmented,2026-01-09T05:32:20.457003,0.9,intensity
+Tồi tệ!,disgust,5,😖,🤮,👎,manual,2026-01-09T05:32:20.457006,1.0,original
+Kém cỏi!,disgust,4,😒,👎,😤,manual,2026-01-09T05:32:20.457008,1.0,original
+Kém rất cỏi!,disgust,5,😒,👎,😤,augmented,2026-01-09T05:32:20.457008,0.9,intensity
+Nhạt nhẽo!,disgust,3,😒,😕,👎,manual,2026-01-09T05:32:20.457010,1.0,original
+Nhạt rất nhẽo!,disgust,4,😒,😕,👎,augmented,2026-01-09T05:32:20.457010,0.9,intensity
+Khó ưa!,disgust,4,😒,😖,👎,manual,2026-01-09T05:32:20.457013,1.0,original
+Khó rất ưa!,disgust,5,😒,😖,👎,augmented,2026-01-09T05:32:20.457013,0.9,intensity
+Chịu không nổi!,disgust,5,🤢,🤮,😖,manual,2026-01-09T05:32:20.457015,1.0,original
+Tin được!,trust,4,👍,✅,😊,manual,2026-01-09T05:32:20.457016,1.0,original
+Tin rất được!,trust,5,👍,✅,😊,augmented,2026-01-09T05:32:20.457016,0.9,intensity
+Yên tâm!,trust,4,😌,👌,💪,manual,2026-01-09T05:32:20.457018,1.0,original
+Yên rất tâm!,trust,5,😌,👌,💪,augmented,2026-01-09T05:32:20.457018,0.9,intensity
+Đồng ý!,trust,4,👍,✅,🤝,manual,2026-01-09T05:32:20.457020,1.0,original
+Đồng rất ý!,trust,5,👍,✅,🤝,augmented,2026-01-09T05:32:20.457020,0.9,intensity
+Hợp lý!,trust,3,👍,🤔,✅,manual,2026-01-09T05:32:20.457021,1.0,original
+Hợp rất lý!,trust,4,👍,🤔,✅,augmented,2026-01-09T05:32:20.457021,0.9,intensity
+Đúng rồi!,trust,4,✅,👍,💯,manual,2026-01-09T05:32:20.457023,1.0,original
+Đúng rất rồi!,trust,5,✅,👍,💯,augmented,2026-01-09T05:32:20.457023,0.9,intensity
+Làm được!,trust,4,💪,👍,✨,manual,2026-01-09T05:32:20.457024,1.0,original
+Làm rất được!,trust,5,💪,👍,✨,augmented,2026-01-09T05:32:20.457024,0.9,intensity
+Chắc ăn!,trust,5,💯,✅,👍,manual,2026-01-09T05:32:20.457026,1.0,original
+Ổn áp!,trust,3,👌,😊,👍,manual,2026-01-09T05:32:20.457028,1.0,original
+Ổn rất áp!,trust,4,👌,😊,👍,augmented,2026-01-09T05:32:20.457028,0.9,intensity
+Sắp rồi!,anticipation,4,⏰,😊,✨,manual,2026-01-09T05:32:20.457029,1.0,original
+Sắp rất rồi!,anticipation,5,⏰,😊,✨,augmented,2026-01-09T05:32:20.457029,0.9,intensity
+Đợi mãi!,anticipation,4,⏳,😊,🤞,manual,2026-01-09T05:32:20.457031,1.0,original
+Đợi rất mãi!,anticipation,5,⏳,😊,🤞,augmented,2026-01-09T05:32:20.457031,0.9,intensity
+Mong ngóng!,anticipation,4,🤞,⏰,😊,manual,2026-01-09T05:32:20.457033,1.0,original
+Mong rất ngóng!,anticipation,5,🤞,⏰,😊,augmented,2026-01-09T05:32:20.457033,0.9,intensity
+Hồi hộp chờ!,anticipation,4,😬,🤞,⏰,manual,2026-01-09T05:32:20.457034,1.0,original
+Hồi rất hộp chờ!,anticipation,5,😬,🤞,⏰,augmented,2026-01-09T05:32:20.457034,0.9,intensity
+Sắp được nghỉ!,anticipation,5,🎉,🏖️,😊,manual,2026-01-09T05:32:20.457036,1.0,original
+Gần đến!,anticipation,4,⏰,✨,😊,manual,2026-01-09T05:32:20.457038,1.0,original
+Gần rất đến!,anticipation,5,⏰,✨,😊,augmented,2026-01-09T05:32:20.457038,0.9,intensity
+Mong mỏi!,anticipation,4,🤞,✨,😊,manual,2026-01-09T05:32:20.457039,1.0,original
+Mong rất mỏi!,anticipation,5,🤞,✨,😊,augmented,2026-01-09T05:32:20.457039,0.9,intensity
+Háo hức!,anticipation,5,🤩,🎉,✨,manual,2026-01-09T05:32:20.457041,1.0,original
+Tuyệt vời quá!,joy,5,🤩,🎉,✨,manual,2026-01-09T05:32:20.457042,1.0,original
+Quá vui!,joy,5,😄,🎉,😊,manual,2026-01-09T05:32:20.457044,1.0,original
+lắm vui!,joy,5,😄,🎉,😊,augmented,2026-01-09T05:32:20.457044,0.95,synonym
+cực vui!,joy,5,😄,🎉,😊,augmented,2026-01-09T05:32:20.457044,0.95,synonym
+ghê vui!,joy,5,😄,🎉,😊,augmented,2026-01-09T05:32:20.457044,0.95,synonym
+thật vui!,joy,5,😄,🎉,😊,augmented,2026-01-09T05:32:20.457044,0.95,synonym
+Rất buồn!,sadness,5,😭,😢,💔,manual,2026-01-09T05:32:20.457046,1.0,original
+siêu buồn!,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.457046,0.95,synonym
+vô cùng buồn!,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.457046,0.95,synonym
+quá buồn!,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.457046,0.95,synonym
+vô cùng buồn!,sadness,5,😭,😢,💔,augmented,2026-01-09T05:32:20.457046,0.95,synonym
+Cực kỳ tức giận!,anger,5,😡,💢,🤬,manual,2026-01-09T05:32:20.457047,1.0,original
+Cực kỳ khó chịu giận!,anger,5,😡,💢,🤬,augmented,2026-01-09T05:32:20.457047,0.95,synonym
+Cực kỳ khó chịu giận!,anger,5,😡,💢,🤬,augmented,2026-01-09T05:32:20.457047,0.95,synonym
+Cực kỳ giận dữ giận!,anger,5,😡,💢,🤬,augmented,2026-01-09T05:32:20.457047,0.95,synonym
+Cực kỳ khó chịu giận!,anger,5,😡,💢,🤬,augmented,2026-01-09T05:32:20.457047,0.95,synonym
+Sợ hãi!,fear,5,😱,😨,😰,manual,2026-01-09T05:32:20.457049,1.0,original
+lo sợ hãi!,fear,5,😱,😨,😰,augmented,2026-01-09T05:32:20.457049,0.95,synonym
+kinh sợ hãi!,fear,5,😱,😨,😰,augmented,2026-01-09T05:32:20.457049,0.95,synonym
+lo sợ hãi!,fear,5,😱,😨,😰,augmented,2026-01-09T05:32:20.457049,0.95,synonym
+hoảng sợ hãi!,fear,5,😱,😨,😰,augmented,2026-01-09T05:32:20.457049,0.95,synonym
+Thật ngạc nhiên!,surprise,5,😮,😲,🤯,manual,2026-01-09T05:32:20.457051,1.0,original
