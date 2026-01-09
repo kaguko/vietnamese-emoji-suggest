@@ -219,7 +219,10 @@ def check_data_quality(df):
 
 def main():
     """Run all verification checks."""
-    os.chdir('/home/runner/work/vietnamese-emoji-suggest/vietnamese-emoji-suggest')
+    # Dynamically find project root (look for pyproject.toml or setup.py)
+    script_dir = os.path.dirname(os.path.abspath(__file__))
+    project_root = os.path.dirname(script_dir)
+    os.chdir(project_root)
     
     print("\n" + "=" * 70)
     print(" DATA VERIFICATION SCRIPT")
