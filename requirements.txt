@@ -1,0 +1,41 @@
+# Vietnamese Emoji Suggestion System
+# Python 3.9+
+
+# Core ML/NLP
+torch>=2.0.0
+transformers>=4.30.0
+sentence-transformers>=2.2.0
+scikit-learn>=1.3.0
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.24.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+plotly>=5.15.0
+
+# Web app
+streamlit>=1.28.0
+fastapi>=0.104.0
+uvicorn>=0.24.0
+pydantic>=2.5.0
+
+# Development
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+
+# Testing
+pytest>=7.4.0
+pytest-cov>=4.1.0
+
+# Vietnamese NLP
+underthesea>=6.8.0
+pyvi>=0.1.1
+
+# Utilities
+requests>=2.31.0
+python-dotenv>=1.0.0
+tqdm>=4.66.0
