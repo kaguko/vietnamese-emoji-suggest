@@ -1,0 +1,1942 @@
+[
+  {
+    "text": "Chúc mừng bạn đậu tuyển dụng!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "😊",
+    "emoji_2": "🎉",
+    "emoji_3": "🥳",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889550"
+  },
+  {
+    "text": "Hôm nay là ngày tuyệt vời!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😄",
+    "emoji_2": "✨",
+    "emoji_3": "🌟",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889562"
+  },
+  {
+    "text": "Cảm ơn bạn nhiều lắm!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😊",
+    "emoji_2": "🙏",
+    "emoji_3": "❤️",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889565"
+  },
+  {
+    "text": "Mình vui quá!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "😁",
+    "emoji_2": "🎊",
+    "emoji_3": "💫",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889568"
+  },
+  {
+    "text": "Thật tuyệt vời!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "🤩",
+    "emoji_2": "👏",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889570"
+  },
+  {
+    "text": "Cuối cùng cũng xong!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😌",
+    "emoji_2": "🎉",
+    "emoji_3": "💪",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889572"
+  },
+  {
+    "text": "Được nghỉ phép rồi!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😊",
+    "emoji_2": "🏖️",
+    "emoji_3": "🎊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889574"
+  },
+  {
+    "text": "Lương tháng này tăng!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "🤑",
+    "emoji_2": "💰",
+    "emoji_3": "🎉",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889575"
+  },
+  {
+    "text": "Con đỗ đại học rồi mẹ ơi!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "😭",
+    "emoji_2": "🎓",
+    "emoji_3": "🎉",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889577"
+  },
+  {
+    "text": "Ăn mừng thôi!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "🎉",
+    "emoji_2": "🍻",
+    "emoji_3": "🥳",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889579"
+  },
+  {
+    "text": "Vui ghê!",
+    "primary_emotion": "joy",
+    "intensity": 3,
+    "emoji_1": "😊",
+    "emoji_2": "😄",
+    "emoji_3": "🙂",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889581"
+  },
+  {
+    "text": "Có tin vui nè!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😊",
+    "emoji_2": "✨",
+    "emoji_3": "🌈",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889583"
+  },
+  {
+    "text": "Buồn quá",
+    "primary_emotion": "sadness",
+    "intensity": 5,
+    "emoji_1": "😭",
+    "emoji_2": "😢",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889585"
+  },
+  {
+    "text": "Mình rất nhớ bạn",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😢",
+    "emoji_2": "💔",
+    "emoji_3": "🥺",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889586"
+  },
+  {
+    "text": "Thật đáng tiếc",
+    "primary_emotion": "sadness",
+    "intensity": 3,
+    "emoji_1": "😔",
+    "emoji_2": "😞",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889588"
+  },
+  {
+    "text": "Hôm nay không vui",
+    "primary_emotion": "sadness",
+    "intensity": 3,
+    "emoji_1": "😔",
+    "emoji_2": "☹️",
+    "emoji_3": "😞",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889590"
+  },
+  {
+    "text": "Thi trượt rồi",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😭",
+    "emoji_2": "😢",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889592"
+  },
+  {
+    "text": "Chia tay rồi",
+    "primary_emotion": "sadness",
+    "intensity": 5,
+    "emoji_1": "💔",
+    "emoji_2": "😢",
+    "emoji_3": "😭",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889594"
+  },
+  {
+    "text": "Mất việc rồi",
+    "primary_emotion": "sadness",
+    "intensity": 5,
+    "emoji_1": "😭",
+    "emoji_2": "😞",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889595"
+  },
+  {
+    "text": "Cô đơn quá",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😢",
+    "emoji_2": "🥺",
+    "emoji_3": "😔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889597"
+  },
+  {
+    "text": "Nhớ nhà",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "🥺",
+    "emoji_2": "😢",
+    "emoji_3": "🏠",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889599"
+  },
+  {
+    "text": "Thất vọng quá",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😞",
+    "emoji_2": "😔",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889600"
+  },
+  {
+    "text": "Chán ghê",
+    "primary_emotion": "sadness",
+    "intensity": 3,
+    "emoji_1": "😕",
+    "emoji_2": "😔",
+    "emoji_3": "😒",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889602"
+  },
+  {
+    "text": "Mệt mỏi lắm",
+    "primary_emotion": "sadness",
+    "intensity": 3,
+    "emoji_1": "😩",
+    "emoji_2": "😞",
+    "emoji_3": "😔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889604"
+  },
+  {
+    "text": "Tức quá!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "😠",
+    "emoji_2": "💢",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889605"
+  },
+  {
+    "text": "Sao lại thế được!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😡",
+    "emoji_2": "💢",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889607"
+  },
+  {
+    "text": "Bực mình ghê!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😤",
+    "emoji_2": "💢",
+    "emoji_3": "😠",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889609"
+  },
+  {
+    "text": "Không chấp nhận được!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "😡",
+    "emoji_2": "👊",
+    "emoji_3": "💢",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889611"
+  },
+  {
+    "text": "Quá đáng!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😠",
+    "emoji_2": "💢",
+    "emoji_3": "🤬",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889612"
+  },
+  {
+    "text": "Ghét cay ghét đắng!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "🤬",
+    "emoji_2": "💢",
+    "emoji_3": "😡",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889614"
+  },
+  {
+    "text": "Điên tiết lên được!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "🤬",
+    "emoji_2": "💢",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889616"
+  },
+  {
+    "text": "Mày làm gì vậy!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😠",
+    "emoji_2": "💢",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889617"
+  },
+  {
+    "text": "Khó chịu quá!",
+    "primary_emotion": "anger",
+    "intensity": 3,
+    "emoji_1": "😒",
+    "emoji_2": "😤",
+    "emoji_3": "💢",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889619"
+  },
+  {
+    "text": "Sốt ruột quá!",
+    "primary_emotion": "anger",
+    "intensity": 3,
+    "emoji_1": "😤",
+    "emoji_2": "⏰",
+    "emoji_3": "😠",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889639"
+  },
+  {
+    "text": "Sợ quá!",
+    "primary_emotion": "fear",
+    "intensity": 5,
+    "emoji_1": "😨",
+    "emoji_2": "😱",
+    "emoji_3": "😰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889641"
+  },
+  {
+    "text": "Lo lắng quá!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😰",
+    "emoji_2": "😟",
+    "emoji_3": "🥺",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889642"
+  },
+  {
+    "text": "Căng thẳng quá!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😰",
+    "emoji_2": "😬",
+    "emoji_3": "💦",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889644"
+  },
+  {
+    "text": "Không dám đâu!",
+    "primary_emotion": "fear",
+    "intensity": 3,
+    "emoji_1": "😨",
+    "emoji_2": "🙈",
+    "emoji_3": "😰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889646"
+  },
+  {
+    "text": "Run hết cả người!",
+    "primary_emotion": "fear",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "😨",
+    "emoji_3": "💀",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889647"
+  },
+  {
+    "text": "Hồi hộp quá!",
+    "primary_emotion": "fear",
+    "intensity": 3,
+    "emoji_1": "😬",
+    "emoji_2": "💓",
+    "emoji_3": "😰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889649"
+  },
+  {
+    "text": "Mai thi rồi!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😰",
+    "emoji_2": "📚",
+    "emoji_3": "😱",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889651"
+  },
+  {
+    "text": "Đáng sợ thật!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😱",
+    "emoji_2": "😨",
+    "emoji_3": "👻",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889653"
+  },
+  {
+    "text": "Hoang mang quá!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😰",
+    "emoji_2": "😟",
+    "emoji_3": "❓",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889654"
+  },
+  {
+    "text": "Không biết sao!",
+    "primary_emotion": "fear",
+    "intensity": 3,
+    "emoji_1": "😰",
+    "emoji_2": "🤔",
+    "emoji_3": "😟",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889656"
+  },
+  {
+    "text": "Thật sao!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😮",
+    "emoji_2": "😲",
+    "emoji_3": "🤯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889663"
+  },
+  {
+    "text": "Không tin được!",
+    "primary_emotion": "surprise",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "🤯",
+    "emoji_3": "😮",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889665"
+  },
+  {
+    "text": "Ơ kìa!",
+    "primary_emotion": "surprise",
+    "intensity": 3,
+    "emoji_1": "😮",
+    "emoji_2": "❓",
+    "emoji_3": "😯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889667"
+  },
+  {
+    "text": "Bất ngờ quá!",
+    "primary_emotion": "surprise",
+    "intensity": 5,
+    "emoji_1": "🤯",
+    "emoji_2": "😲",
+    "emoji_3": "🎉",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889668"
+  },
+  {
+    "text": "Wow!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "🤩",
+    "emoji_2": "😮",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889670"
+  },
+  {
+    "text": "Trời ơi!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😱",
+    "emoji_2": "😮",
+    "emoji_3": "🙀",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889672"
+  },
+  {
+    "text": "Không ngờ!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😲",
+    "emoji_2": "😮",
+    "emoji_3": "🤯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889674"
+  },
+  {
+    "text": "Ủa!",
+    "primary_emotion": "surprise",
+    "intensity": 3,
+    "emoji_1": "🤔",
+    "emoji_2": "😮",
+    "emoji_3": "❓",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889675"
+  },
+  {
+    "text": "Gì đây!",
+    "primary_emotion": "surprise",
+    "intensity": 3,
+    "emoji_1": "😮",
+    "emoji_2": "🤔",
+    "emoji_3": "❓",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889677"
+  },
+  {
+    "text": "Đùa à!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😲",
+    "emoji_2": "🤣",
+    "emoji_3": "😮",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889679"
+  },
+  {
+    "text": "Ghê quá!",
+    "primary_emotion": "disgust",
+    "intensity": 5,
+    "emoji_1": "🤢",
+    "emoji_2": "🤮",
+    "emoji_3": "😖",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889681"
+  },
+  {
+    "text": "Kinh dị!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "😱",
+    "emoji_2": "🤢",
+    "emoji_3": "👎",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889682"
+  },
+  {
+    "text": "Không chịu được!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "🤮",
+    "emoji_2": "😖",
+    "emoji_3": "❌",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889684"
+  },
+  {
+    "text": "Dơ bẩn quá!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "🤢",
+    "emoji_2": "😷",
+    "emoji_3": "🚫",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889686"
+  },
+  {
+    "text": "Kỳ quá!",
+    "primary_emotion": "disgust",
+    "intensity": 3,
+    "emoji_1": "😒",
+    "emoji_2": "🙄",
+    "emoji_3": "😕",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889688"
+  },
+  {
+    "text": "Ớn lạnh!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "😖",
+    "emoji_2": "🤢",
+    "emoji_3": "😬",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889689"
+  },
+  {
+    "text": "Không thích!",
+    "primary_emotion": "disgust",
+    "intensity": 3,
+    "emoji_1": "👎",
+    "emoji_2": "😕",
+    "emoji_3": "❌",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889691"
+  },
+  {
+    "text": "Tệ quá!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "👎",
+    "emoji_2": "😤",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889693"
+  },
+  {
+    "text": "Dở ẹc!",
+    "primary_emotion": "disgust",
+    "intensity": 3,
+    "emoji_1": "👎",
+    "emoji_2": "😒",
+    "emoji_3": "🙄",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889694"
+  },
+  {
+    "text": "Chán ngấy!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "😒",
+    "emoji_2": "🙄",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889696"
+  },
+  {
+    "text": "Tin bạn!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "🤝",
+    "emoji_2": "💪",
+    "emoji_3": "👍",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889698"
+  },
+  {
+    "text": "Cậu làm được!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "💪",
+    "emoji_2": "✨",
+    "emoji_3": "👏",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889700"
+  },
+  {
+    "text": "Mình ủng hộ!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "👍",
+    "emoji_2": "💪",
+    "emoji_3": "🤝",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889701"
+  },
+  {
+    "text": "Yên tâm đi!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "😌",
+    "emoji_2": "🤗",
+    "emoji_3": "👌",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889703"
+  },
+  {
+    "text": "Đáng tin cậy!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "🤝",
+    "emoji_2": "✅",
+    "emoji_3": "💯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889705"
+  },
+  {
+    "text": "Cùng nhau nhé!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "🤝",
+    "emoji_2": "💪",
+    "emoji_3": "❤️",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889706"
+  },
+  {
+    "text": "Không lo!",
+    "primary_emotion": "trust",
+    "intensity": 3,
+    "emoji_1": "👌",
+    "emoji_2": "😊",
+    "emoji_3": "✌️",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889708"
+  },
+  {
+    "text": "Chắc chắn!",
+    "primary_emotion": "trust",
+    "intensity": 5,
+    "emoji_1": "✅",
+    "emoji_2": "💯",
+    "emoji_3": "👍",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889710"
+  },
+  {
+    "text": "Bạn giỏi lắm!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "👏",
+    "emoji_2": "🌟",
+    "emoji_3": "💪",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889711"
+  },
+  {
+    "text": "Tuyệt vời!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "👍",
+    "emoji_2": "✨",
+    "emoji_3": "🔥",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889713"
+  },
+  {
+    "text": "Mong chờ quá!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "🤞",
+    "emoji_2": "😊",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889715"
+  },
+  {
+    "text": "Háo hức quá!",
+    "primary_emotion": "anticipation",
+    "intensity": 5,
+    "emoji_1": "🤩",
+    "emoji_2": "😆",
+    "emoji_3": "🎊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889716"
+  },
+  {
+    "text": "Không đợi được nữa!",
+    "primary_emotion": "anticipation",
+    "intensity": 5,
+    "emoji_1": "😆",
+    "emoji_2": "🔥",
+    "emoji_3": "⏰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889718"
+  },
+  {
+    "text": "Sắp đến rồi!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "🎉",
+    "emoji_2": "⏰",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889720"
+  },
+  {
+    "text": "Chờ đợi!",
+    "primary_emotion": "anticipation",
+    "intensity": 3,
+    "emoji_1": "⏰",
+    "emoji_2": "🤞",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889722"
+  },
+  {
+    "text": "Hy vọng!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "🤞",
+    "emoji_2": "✨",
+    "emoji_3": "🙏",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889723"
+  },
+  {
+    "text": "Mai là sinh nhật!",
+    "primary_emotion": "anticipation",
+    "intensity": 5,
+    "emoji_1": "🎂",
+    "emoji_2": "🎉",
+    "emoji_3": "🤩",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889725"
+  },
+  {
+    "text": "Còn 3 ngày nữa!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "⏳",
+    "emoji_2": "🤞",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889727"
+  },
+  {
+    "text": "Cuối tuần rồi!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "🎉",
+    "emoji_2": "🥳",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889729"
+  },
+  {
+    "text": "Sắp nghỉ hè!",
+    "primary_emotion": "anticipation",
+    "intensity": 5,
+    "emoji_1": "🏖️",
+    "emoji_2": "☀️",
+    "emoji_3": "🎉",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889730"
+  },
+  {
+    "text": "Được thưởng rồi!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "🤑",
+    "emoji_2": "🎉",
+    "emoji_3": "💰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889732"
+  },
+  {
+    "text": "Pass rồi!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "🎉",
+    "emoji_2": "😊",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889734"
+  },
+  {
+    "text": "Được tăng ca!",
+    "primary_emotion": "joy",
+    "intensity": 3,
+    "emoji_1": "😊",
+    "emoji_2": "💼",
+    "emoji_3": "👍",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889737"
+  },
+  {
+    "text": "Trúng số rồi!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "🤩",
+    "emoji_2": "💰",
+    "emoji_3": "🎊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889739"
+  },
+  {
+    "text": "Được khen!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😊",
+    "emoji_2": "🌟",
+    "emoji_3": "👏",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889741"
+  },
+  {
+    "text": "Ế quá!",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😔",
+    "emoji_2": "💔",
+    "emoji_3": "😢",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889743"
+  },
+  {
+    "text": "Không ai hiểu",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😢",
+    "emoji_2": "💔",
+    "emoji_3": "😞",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889744"
+  },
+  {
+    "text": "Hụt hẫng",
+    "primary_emotion": "sadness",
+    "intensity": 3,
+    "emoji_1": "😔",
+    "emoji_2": "💔",
+    "emoji_3": "😕",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889746"
+  },
+  {
+    "text": "Trượt visa rồi",
+    "primary_emotion": "sadness",
+    "intensity": 5,
+    "emoji_1": "😭",
+    "emoji_2": "😞",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889748"
+  },
+  {
+    "text": "Bị từ chối",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😢",
+    "emoji_2": "💔",
+    "emoji_3": "😔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889749"
+  },
+  {
+    "text": "Phí thời gian!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😤",
+    "emoji_2": "💢",
+    "emoji_3": "⏰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889751"
+  },
+  {
+    "text": "Vô trách nhiệm!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "😡",
+    "emoji_2": "💢",
+    "emoji_3": "👊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889753"
+  },
+  {
+    "text": "Lừa dối!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "😠",
+    "emoji_2": "💢",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889756"
+  },
+  {
+    "text": "Bất công!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😡",
+    "emoji_2": "💢",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889758"
+  },
+  {
+    "text": "Thái độ tệ!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😠",
+    "emoji_2": "💢",
+    "emoji_3": "👎",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889760"
+  },
+  {
+    "text": "Nguy hiểm quá!",
+    "primary_emotion": "fear",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "😨",
+    "emoji_3": "⚠️",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889762"
+  },
+  {
+    "text": "Không chắc!",
+    "primary_emotion": "fear",
+    "intensity": 3,
+    "emoji_1": "😰",
+    "emoji_2": "🤔",
+    "emoji_3": "😟",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889763"
+  },
+  {
+    "text": "Lo âu quá!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😰",
+    "emoji_2": "😟",
+    "emoji_3": "💭",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889765"
+  },
+  {
+    "text": "Sợ bị phạt!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😨",
+    "emoji_2": "😰",
+    "emoji_3": "⚠️",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889767"
+  },
+  {
+    "text": "Cẩn thận!",
+    "primary_emotion": "fear",
+    "intensity": 3,
+    "emoji_1": "😬",
+    "emoji_2": "⚠️",
+    "emoji_3": "👀",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889768"
+  },
+  {
+    "text": "Không thể tin!",
+    "primary_emotion": "surprise",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "🤯",
+    "emoji_3": "❗",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889770"
+  },
+  {
+    "text": "Thật ư!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😮",
+    "emoji_2": "😲",
+    "emoji_3": "❓",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889772"
+  },
+  {
+    "text": "Sao lại vậy!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😮",
+    "emoji_2": "😲",
+    "emoji_3": "❗",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889773"
+  },
+  {
+    "text": "À!",
+    "primary_emotion": "surprise",
+    "intensity": 3,
+    "emoji_1": "😮",
+    "emoji_2": "💡",
+    "emoji_3": "🤔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889775"
+  },
+  {
+    "text": "Bất ngờ thật!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😲",
+    "emoji_2": "😮",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889777"
+  },
+  {
+    "text": "Hôi quá!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "🤢",
+    "emoji_2": "😷",
+    "emoji_3": "👃",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889779"
+  },
+  {
+    "text": "Kinh tởm!",
+    "primary_emotion": "disgust",
+    "intensity": 5,
+    "emoji_1": "🤮",
+    "emoji_2": "😖",
+    "emoji_3": "🤢",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889781"
+  },
+  {
+    "text": "Ghê tởm quá!",
+    "primary_emotion": "disgust",
+    "intensity": 5,
+    "emoji_1": "🤢",
+    "emoji_2": "🤮",
+    "emoji_3": "😷",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889782"
+  },
+  {
+    "text": "Không ổn!",
+    "primary_emotion": "disgust",
+    "intensity": 3,
+    "emoji_1": "😕",
+    "emoji_2": "👎",
+    "emoji_3": "❌",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889784"
+  },
+  {
+    "text": "Rất tệ!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "👎",
+    "emoji_2": "😤",
+    "emoji_3": "🚫",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889786"
+  },
+  {
+    "text": "Cố lên!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "💪",
+    "emoji_2": "✨",
+    "emoji_3": "👊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889787"
+  },
+  {
+    "text": "Được đó!",
+    "primary_emotion": "trust",
+    "intensity": 3,
+    "emoji_1": "👍",
+    "emoji_2": "😊",
+    "emoji_3": "✅",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889789"
+  },
+  {
+    "text": "OK nhé!",
+    "primary_emotion": "trust",
+    "intensity": 3,
+    "emoji_1": "👌",
+    "emoji_2": "😊",
+    "emoji_3": "✌️",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889791"
+  },
+  {
+    "text": "Hoàn hảo!",
+    "primary_emotion": "trust",
+    "intensity": 5,
+    "emoji_1": "💯",
+    "emoji_2": "✨",
+    "emoji_3": "🌟",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889792"
+  },
+  {
+    "text": "Tốt lắm!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "👍",
+    "emoji_2": "👏",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889794"
+  },
+  {
+    "text": "Sắp tết rồi!",
+    "primary_emotion": "anticipation",
+    "intensity": 5,
+    "emoji_1": "🎉",
+    "emoji_2": "🧧",
+    "emoji_3": "🎊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889796"
+  },
+  {
+    "text": "Chờ đợi kết quả!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "⏰",
+    "emoji_2": "🤞",
+    "emoji_3": "📋",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889798"
+  },
+  {
+    "text": "Sắp gặp!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "😊",
+    "emoji_2": "⏰",
+    "emoji_3": "🤗",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889799"
+  },
+  {
+    "text": "Mong được đi!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "🤞",
+    "emoji_2": "✈️",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889801"
+  },
+  {
+    "text": "Sắp có tin!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "⏰",
+    "emoji_2": "🤞",
+    "emoji_3": "📱",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889803"
+  },
+  {
+    "text": "Ngon quá!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😋",
+    "emoji_2": "👍",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889805"
+  },
+  {
+    "text": "Tốt đẹp!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😊",
+    "emoji_2": "✨",
+    "emoji_3": "👌",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889806"
+  },
+  {
+    "text": "Được rồi!",
+    "primary_emotion": "joy",
+    "intensity": 3,
+    "emoji_1": "😊",
+    "emoji_2": "👍",
+    "emoji_3": "✅",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889808"
+  },
+  {
+    "text": "Vui lắm!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😄",
+    "emoji_2": "😊",
+    "emoji_3": "🎉",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889810"
+  },
+  {
+    "text": "Xinh quá!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😍",
+    "emoji_2": "✨",
+    "emoji_3": "💕",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889813"
+  },
+  {
+    "text": "Đẹp tuyệt!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "🤩",
+    "emoji_2": "✨",
+    "emoji_3": "😍",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889815"
+  },
+  {
+    "text": "Cảm động quá!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "😭",
+    "emoji_2": "❤️",
+    "emoji_3": "🥺",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889816"
+  },
+  {
+    "text": "Hài lòng!",
+    "primary_emotion": "joy",
+    "intensity": 4,
+    "emoji_1": "😊",
+    "emoji_2": "👍",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889818"
+  },
+  {
+    "text": "Buồn thiu!",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😔",
+    "emoji_2": "😢",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889820"
+  },
+  {
+    "text": "Đau lòng!",
+    "primary_emotion": "sadness",
+    "intensity": 5,
+    "emoji_1": "💔",
+    "emoji_2": "😭",
+    "emoji_3": "😢",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889821"
+  },
+  {
+    "text": "Xót xa!",
+    "primary_emotion": "sadness",
+    "intensity": 5,
+    "emoji_1": "😢",
+    "emoji_2": "💔",
+    "emoji_3": "😭",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889823"
+  },
+  {
+    "text": "Tiếc nuối!",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😔",
+    "emoji_2": "😢",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889825"
+  },
+  {
+    "text": "Thương quá!",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "🥺",
+    "emoji_2": "😢",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889826"
+  },
+  {
+    "text": "Mệt nản!",
+    "primary_emotion": "sadness",
+    "intensity": 4,
+    "emoji_1": "😩",
+    "emoji_2": "😔",
+    "emoji_3": "😞",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889828"
+  },
+  {
+    "text": "Chán nản!",
+    "primary_emotion": "sadness",
+    "intensity": 3,
+    "emoji_1": "😔",
+    "emoji_2": "😕",
+    "emoji_3": "😒",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889829"
+  },
+  {
+    "text": "Tuyệt vọng!",
+    "primary_emotion": "sadness",
+    "intensity": 5,
+    "emoji_1": "😭",
+    "emoji_2": "😞",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889831"
+  },
+  {
+    "text": "Tức lắm!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😤",
+    "emoji_2": "💢",
+    "emoji_3": "😠",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889833"
+  },
+  {
+    "text": "Ức chế!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😤",
+    "emoji_2": "💢",
+    "emoji_3": "😡",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889835"
+  },
+  {
+    "text": "Chướng tai!",
+    "primary_emotion": "anger",
+    "intensity": 3,
+    "emoji_1": "😒",
+    "emoji_2": "😤",
+    "emoji_3": "💢",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889836"
+  },
+  {
+    "text": "Không ưa!",
+    "primary_emotion": "anger",
+    "intensity": 3,
+    "emoji_1": "😒",
+    "emoji_2": "👎",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889838"
+  },
+  {
+    "text": "Phẫn nộ!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "😡",
+    "emoji_2": "💢",
+    "emoji_3": "🤬",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889840"
+  },
+  {
+    "text": "Bực bội!",
+    "primary_emotion": "anger",
+    "intensity": 4,
+    "emoji_1": "😤",
+    "emoji_2": "😠",
+    "emoji_3": "💢",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889841"
+  },
+  {
+    "text": "Nóng giận!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "😡",
+    "emoji_2": "💢",
+    "emoji_3": "🔥",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889844"
+  },
+  {
+    "text": "Chán không!",
+    "primary_emotion": "anger",
+    "intensity": 3,
+    "emoji_1": "😒",
+    "emoji_2": "😤",
+    "emoji_3": "😕",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889846"
+  },
+  {
+    "text": "Khủng khiếp!",
+    "primary_emotion": "fear",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "😨",
+    "emoji_3": "😰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889848"
+  },
+  {
+    "text": "Rùng mình!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😨",
+    "emoji_2": "😰",
+    "emoji_3": "🥶",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889850"
+  },
+  {
+    "text": "E dè!",
+    "primary_emotion": "fear",
+    "intensity": 3,
+    "emoji_1": "😰",
+    "emoji_2": "😟",
+    "emoji_3": "🤔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889851"
+  },
+  {
+    "text": "Bất an!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😰",
+    "emoji_2": "😟",
+    "emoji_3": "💭",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889853"
+  },
+  {
+    "text": "Lo lắng!",
+    "primary_emotion": "fear",
+    "intensity": 4,
+    "emoji_1": "😰",
+    "emoji_2": "😟",
+    "emoji_3": "😬",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889855"
+  },
+  {
+    "text": "Hoảng hốt!",
+    "primary_emotion": "fear",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "😨",
+    "emoji_3": "😰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889856"
+  },
+  {
+    "text": "Run sợ!",
+    "primary_emotion": "fear",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "😨",
+    "emoji_3": "🥶",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889858"
+  },
+  {
+    "text": "Ngại ngùng!",
+    "primary_emotion": "fear",
+    "intensity": 3,
+    "emoji_1": "😰",
+    "emoji_2": "😊",
+    "emoji_3": "🙈",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889860"
+  },
+  {
+    "text": "Sốc nặng!",
+    "primary_emotion": "surprise",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "🤯",
+    "emoji_3": "😲",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889861"
+  },
+  {
+    "text": "Ngỡ ngàng!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😮",
+    "emoji_2": "😲",
+    "emoji_3": "🤯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889863"
+  },
+  {
+    "text": "Kinh ngạc!",
+    "primary_emotion": "surprise",
+    "intensity": 5,
+    "emoji_1": "😲",
+    "emoji_2": "🤯",
+    "emoji_3": "😮",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889865"
+  },
+  {
+    "text": "Lạ thật!",
+    "primary_emotion": "surprise",
+    "intensity": 3,
+    "emoji_1": "😮",
+    "emoji_2": "🤔",
+    "emoji_3": "😯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889866"
+  },
+  {
+    "text": "Ồ!",
+    "primary_emotion": "surprise",
+    "intensity": 3,
+    "emoji_1": "😮",
+    "emoji_2": "😲",
+    "emoji_3": "❗",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889868"
+  },
+  {
+    "text": "Hả!",
+    "primary_emotion": "surprise",
+    "intensity": 3,
+    "emoji_1": "😮",
+    "emoji_2": "😯",
+    "emoji_3": "❓",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889870"
+  },
+  {
+    "text": "Lạ lùng!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😮",
+    "emoji_2": "🤔",
+    "emoji_3": "😲",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889871"
+  },
+  {
+    "text": "Chưa thấy!",
+    "primary_emotion": "surprise",
+    "intensity": 4,
+    "emoji_1": "😮",
+    "emoji_2": "😲",
+    "emoji_3": "🤯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889873"
+  },
+  {
+    "text": "Phản cảm!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "😖",
+    "emoji_2": "😒",
+    "emoji_3": "🙄",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889875"
+  },
+  {
+    "text": "Thất vọng!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "😞",
+    "emoji_2": "👎",
+    "emoji_3": "😔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889876"
+  },
+  {
+    "text": "Chất lượng kém!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "👎",
+    "emoji_2": "😤",
+    "emoji_3": "😒",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889878"
+  },
+  {
+    "text": "Tồi tệ!",
+    "primary_emotion": "disgust",
+    "intensity": 5,
+    "emoji_1": "😖",
+    "emoji_2": "🤮",
+    "emoji_3": "👎",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889880"
+  },
+  {
+    "text": "Kém cỏi!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "😒",
+    "emoji_2": "👎",
+    "emoji_3": "😤",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889881"
+  },
+  {
+    "text": "Nhạt nhẽo!",
+    "primary_emotion": "disgust",
+    "intensity": 3,
+    "emoji_1": "😒",
+    "emoji_2": "😕",
+    "emoji_3": "👎",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889883"
+  },
+  {
+    "text": "Khó ưa!",
+    "primary_emotion": "disgust",
+    "intensity": 4,
+    "emoji_1": "😒",
+    "emoji_2": "😖",
+    "emoji_3": "👎",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889885"
+  },
+  {
+    "text": "Chịu không nổi!",
+    "primary_emotion": "disgust",
+    "intensity": 5,
+    "emoji_1": "🤢",
+    "emoji_2": "🤮",
+    "emoji_3": "😖",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889888"
+  },
+  {
+    "text": "Tin được!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "👍",
+    "emoji_2": "✅",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889890"
+  },
+  {
+    "text": "Yên tâm!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "😌",
+    "emoji_2": "👌",
+    "emoji_3": "💪",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889891"
+  },
+  {
+    "text": "Đồng ý!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "👍",
+    "emoji_2": "✅",
+    "emoji_3": "🤝",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889893"
+  },
+  {
+    "text": "Hợp lý!",
+    "primary_emotion": "trust",
+    "intensity": 3,
+    "emoji_1": "👍",
+    "emoji_2": "🤔",
+    "emoji_3": "✅",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889895"
+  },
+  {
+    "text": "Đúng rồi!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "✅",
+    "emoji_2": "👍",
+    "emoji_3": "💯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889897"
+  },
+  {
+    "text": "Làm được!",
+    "primary_emotion": "trust",
+    "intensity": 4,
+    "emoji_1": "💪",
+    "emoji_2": "👍",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889898"
+  },
+  {
+    "text": "Chắc ăn!",
+    "primary_emotion": "trust",
+    "intensity": 5,
+    "emoji_1": "💯",
+    "emoji_2": "✅",
+    "emoji_3": "👍",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889900"
+  },
+  {
+    "text": "Ổn áp!",
+    "primary_emotion": "trust",
+    "intensity": 3,
+    "emoji_1": "👌",
+    "emoji_2": "😊",
+    "emoji_3": "👍",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889901"
+  },
+  {
+    "text": "Sắp rồi!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "⏰",
+    "emoji_2": "😊",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889903"
+  },
+  {
+    "text": "Đợi mãi!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "⏳",
+    "emoji_2": "😊",
+    "emoji_3": "🤞",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889907"
+  },
+  {
+    "text": "Mong ngóng!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "🤞",
+    "emoji_2": "⏰",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889908"
+  },
+  {
+    "text": "Hồi hộp chờ!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "😬",
+    "emoji_2": "🤞",
+    "emoji_3": "⏰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889910"
+  },
+  {
+    "text": "Sắp được nghỉ!",
+    "primary_emotion": "anticipation",
+    "intensity": 5,
+    "emoji_1": "🎉",
+    "emoji_2": "🏖️",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889912"
+  },
+  {
+    "text": "Gần đến!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "⏰",
+    "emoji_2": "✨",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889913"
+  },
+  {
+    "text": "Mong mỏi!",
+    "primary_emotion": "anticipation",
+    "intensity": 4,
+    "emoji_1": "🤞",
+    "emoji_2": "✨",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889915"
+  },
+  {
+    "text": "Háo hức!",
+    "primary_emotion": "anticipation",
+    "intensity": 5,
+    "emoji_1": "🤩",
+    "emoji_2": "🎉",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889917"
+  },
+  {
+    "text": "Tuyệt vời quá!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "🤩",
+    "emoji_2": "🎉",
+    "emoji_3": "✨",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889918"
+  },
+  {
+    "text": "Quá vui!",
+    "primary_emotion": "joy",
+    "intensity": 5,
+    "emoji_1": "😄",
+    "emoji_2": "🎉",
+    "emoji_3": "😊",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889920"
+  },
+  {
+    "text": "Rất buồn!",
+    "primary_emotion": "sadness",
+    "intensity": 5,
+    "emoji_1": "😭",
+    "emoji_2": "😢",
+    "emoji_3": "💔",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889922"
+  },
+  {
+    "text": "Cực kỳ tức giận!",
+    "primary_emotion": "anger",
+    "intensity": 5,
+    "emoji_1": "😡",
+    "emoji_2": "💢",
+    "emoji_3": "🤬",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889923"
+  },
+  {
+    "text": "Sợ hãi!",
+    "primary_emotion": "fear",
+    "intensity": 5,
+    "emoji_1": "😱",
+    "emoji_2": "😨",
+    "emoji_3": "😰",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889925"
+  },
+  {
+    "text": "Thật ngạc nhiên!",
+    "primary_emotion": "surprise",
+    "intensity": 5,
+    "emoji_1": "😮",
+    "emoji_2": "😲",
+    "emoji_3": "🤯",
+    "source": "manual",
+    "created_at": "2026-01-09T05:29:00.889927"
+  }
+]
