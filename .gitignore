@@ -81,8 +81,13 @@ celerybeat-schedule
 Thumbs.db
 
 # Project specific
+# Allow initial and augmented data in raw folder
+!data/raw/initial_data.csv
+!data/raw/augmented_data.csv
 data/raw/*.csv
 data/raw/*.json
+!data/raw/initial_data.json
+!data/raw/augmented_data.json
 *.log
 *.pkl
 *.h5
